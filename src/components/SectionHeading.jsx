@@ -1,9 +1,23 @@
-import React from 'react';
-
-const SectionHeading = () => {
+function SectionHeading({
+  eyebrow,
+  title,
+  description,
+  light = false,
+}) {
   return (
-    <div>SectionHeading</div>
-  )
+    <div className={`section-heading ${light ? "section-heading-light" : ""}`}>
+      {eyebrow && (
+        <div className="section-eyebrow">
+          <span></span>
+          {eyebrow}
+        </div>
+      )}
+
+      <h2>{title}</h2>
+
+      {description && <p>{description}</p>}
+    </div>
+  );
 }
 
 export default SectionHeading;
