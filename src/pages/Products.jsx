@@ -1,22 +1,9 @@
-import products from "../data/products.json";
-import ProductCard from "../components/ProductCard";
+import React from 'react';
 
-export default function Products() {
+const Products = () => {
   return (
-    <main className="section products-page">
-      <div className="section-heading">
-        <p className="eyebrow">OUR PRODUCTS</p>
-        <h1>Lighting Collection</h1>
-      </div>
-
-      <div className="product-grid">
-        {products.map((product) => (
-          <ProductCard
-            key={product.id}
-            product={product}
-          />
-        ))}
-      </div>
-    </main>
-  );
+    <div>Products</div>
+  )
 }
+
+export default Products;
