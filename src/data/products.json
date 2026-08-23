@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "LED Panel Light",
+    "category": "Indoor Lighting",
+    "wattage": "18W",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/61lHUkFgWvL._UF10001000_QL80_.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cylinder Spot Light",
+    "category": "Spot Light",
+    "wattage": "24W",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/Sb1e280aaf1f34257ac3ff61ae787699cj.webp"
+  },
+  {
+    "id": 3,
+    "name": "LED Flood Light",
+    "category": "Outdoor Lighting",
+    "wattage": "50W",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/0a3c8b962e62628f3aaffbafc5e8fa90.jpg"
+  }
+]
