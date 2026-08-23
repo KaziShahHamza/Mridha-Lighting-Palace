@@ -1,3 +1,6 @@
+import "./../styles/components/section.css";
+
+
 function SectionHeading({
   eyebrow,
   title,

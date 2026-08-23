@@ -1,0 +1,105 @@
+/* =========================================
+   WHY CHOOSE MLP
+   ========================================= */
+
+.why-section {
+  padding: 8rem 0;
+
+  background: var(--color-charcoal);
+  color: var(--color-white);
+}
+
+.why-container {
+  width: min(
+    calc(100% - 3rem),
+    var(--container-width)
+  );
+
+  margin-inline: auto;
+
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+
+  gap: 7rem;
+}
+
+.why-intro .section-eyebrow {
+  color: var(--color-gold);
+}
+
+.why-intro h2 {
+  margin: 0 0 1.75rem;
+
+  font-size: clamp(3rem, 5vw, 5rem);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.why-intro h2 em {
+  color: var(--color-gold);
+
+  font-family: Georgia, serif;
+  font-weight: 400;
+}
+
+.why-intro > p {
+  max-width: 450px;
+
+  margin: 0;
+
+  color: rgba(255, 255, 255, 0.58);
+
+  font-size: 0.9rem;
+  line-height: 1.85;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.why-item {
+  display: grid;
+  grid-template-columns: 45px 1fr;
+
+  gap: 1rem;
+
+  padding: 2rem 1.5rem 2rem 0;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.why-item:nth-child(even) {
+  padding-left: 1.5rem;
+
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.why-number {
+  color: var(--color-gold);
+
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.why-item h3 {
+  margin: 0 0 0.65rem;
+
+  color: var(--color-white);
+
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.why-item p {
+  margin: 0;
+
+  color: rgba(255, 255, 255, 0.48);
+
+  font-size: 0.78rem;
+  line-height: 1.75;
+}

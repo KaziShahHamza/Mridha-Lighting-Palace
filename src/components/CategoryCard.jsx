@@ -1,3 +1,4 @@
+import "./../styles/components/category-card.css";
 import { Link } from "react-router-dom";
 
 function CategoryCard({ title, description, image, category }) {

@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import "./../styles/components/product.css";
+
 
 function ProductCard({ product }) {
   const {

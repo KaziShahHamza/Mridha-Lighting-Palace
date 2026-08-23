@@ -1,0 +1,143 @@
+/* =========================================
+   FINAL QUOTE CTA
+   ========================================= */
+
+.quote-section {
+  position: relative;
+
+  min-height: 620px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  color: var(--color-white);
+}
+
+.quote-background {
+  position: absolute;
+  inset: 0;
+
+  background-image:
+    url(
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2200&q=85"
+    );
+
+  background-size: cover;
+  background-position: center;
+}
+
+.quote-background::before {
+  content: "";
+
+  position: absolute;
+  inset: -3%;
+
+  background: inherit;
+
+  animation: quoteImageMovement 16s ease-in-out infinite alternate;
+}
+
+.quote-overlay {
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(15, 15, 15, 0.86),
+      rgba(15, 15, 15, 0.5)
+    );
+}
+
+.quote-content {
+  position: relative;
+  z-index: 2;
+
+  width: min(
+    calc(100% - 3rem),
+    850px
+  );
+
+  margin-inline: auto;
+
+  text-align: center;
+}
+
+.quote-eyebrow {
+  justify-content: center;
+}
+
+.quote-content h2 {
+  margin: 0 0 1.5rem;
+
+  font-size: clamp(3rem, 6vw, 6rem);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.quote-content h2 em {
+  color: var(--color-gold);
+
+  font-family: Georgia, serif;
+  font-weight: 400;
+}
+
+.quote-content > p {
+  max-width: 600px;
+
+  margin: 0 auto 2rem;
+
+  color: rgba(255, 255, 255, 0.68);
+
+  font-size: 0.92rem;
+  line-height: 1.8;
+}
+
+.quote-large-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+
+  padding: 16px 24px;
+
+  background: var(--color-gold);
+  color: var(--color-white);
+
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+
+  transition:
+    background var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.quote-large-button span {
+  font-size: 1rem;
+
+  transition:
+    transform var(--transition-fast);
+}
+
+.quote-large-button:hover {
+  background: #9e762c;
+  transform: translateY(-3px);
+}
+
+.quote-large-button:hover span {
+  transform: translate(3px, -3px);
+}
+
+@keyframes quoteImageMovement {
+  from {
+    transform: scale(1.02);
+  }
+
+  to {
+    transform: scale(1.07);
+  }
+}

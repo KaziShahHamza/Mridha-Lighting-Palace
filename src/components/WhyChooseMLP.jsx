@@ -1,3 +1,6 @@
+import "./../styles/components/why-choose.css";
+
+
 function WhyChooseMLP() {
   const features = [
     {
