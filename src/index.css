@@ -106,6 +106,7 @@ p {
   margin-top: 0;
 }
 
+
 h1,
 h2,
 h3,
@@ -182,7 +183,7 @@ h3 {
 }
 
 .brand-logo-main {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.12em;
 }
@@ -190,7 +191,7 @@ h3 {
 .brand-logo-sub {
   margin-top: 6px;
   color: rgba(255, 255, 255, 0.6);
-  font-size: 0.5rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.19em;
 }

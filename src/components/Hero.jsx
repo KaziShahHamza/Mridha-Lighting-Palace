@@ -13,7 +13,7 @@ function Hero() {
 
           <div className="hero-label">
             <span className="hero-label-line"></span>
-            <span>MRIDHA LIGHTING PALACE</span>
+            {/* <span>MRIDHA LIGHT PALACE</span> */}
           </div>
 
           <h1 className="hero-title">

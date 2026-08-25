@@ -40,9 +40,9 @@ function Footer() {
               <li>
                 <Link to="/products">Products</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/projects">Projects</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact">Contact</Link>
               </li>
@@ -80,22 +80,18 @@ function Footer() {
             <ul>
               <li>
                 <span>Phone</span>
-                <span>[Phone Placeholder]</span>
+                <span>01674-332510</span>
+                <span>01865-332881</span>
               </li>
 
               <li>
                 <span>Email</span>
-                <span>[Email Placeholder]</span>
-              </li>
-
-              <li>
-                <span>WhatsApp</span>
-                <span>[WhatsApp Placeholder]</span>
+                <span>mlpnimo@gmail.com</span>
               </li>
 
               <li>
                 <span>Address</span>
-                <span>[Address Placeholder]</span>
+                <span>19/1, Naya Paltan, Paltan PS, Dhaka-1000, Bangladesh.</span>
               </li>
             </ul>
           </div>
@@ -115,9 +111,9 @@ function Footer() {
               Facebook
             </a>
 
-            <a href="#" aria-label="Instagram">
+            {/* <a href="#" aria-label="Instagram">
               Instagram
-            </a>
+            </a> */}
 
             <a href="#" aria-label="WhatsApp">
               WhatsApp

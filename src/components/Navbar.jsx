@@ -21,7 +21,7 @@ function Navbar() {
       <div className="navbar-container">
         <Link to="/" className="brand-logo" onClick={closeMenu}>
           <span className="brand-logo-main">MLP</span>
-          <span className="brand-logo-sub">MRIDHA LIGHTING PALACE</span>
+          <span className="brand-logo-sub">MRIDHA LIGHT PALACE</span>
         </Link>
 
         <nav className="desktop-nav" aria-label="Main navigation">
