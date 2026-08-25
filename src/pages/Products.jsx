@@ -30,7 +30,7 @@ function Products() {
 
     return products.filter((product) => {
       const matchesCategory =
-        activeCategory === "All" ||
+        activeCategory ===  "All" ||
         product.category === activeCategory;
 
       const searchableText = [
