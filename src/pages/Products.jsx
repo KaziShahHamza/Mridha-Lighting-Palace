@@ -83,7 +83,7 @@ function Products() {
           PAGE HERO
           ===================================================== */}
 
-      <section className="products-hero">
+      {/* <section className="products-hero">
 
         <div className="products-hero-image"></div>
 
@@ -117,7 +117,7 @@ function Products() {
           </div>
         </div>
 
-      </section>
+      </section> */}
 
 
       {/* =====================================================
@@ -143,8 +143,8 @@ function Products() {
 
               <h2>
                 Find the right
-                <br />
-                <em>light.</em>
+                {/* <br /> */}
+                <em> light.</em>
               </h2>
 
             </div>

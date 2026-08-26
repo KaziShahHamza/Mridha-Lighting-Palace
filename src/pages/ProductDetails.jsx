@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
 import products from "../data/products.json";
@@ -49,19 +49,22 @@ function ProductDetails() {
    ========================================================= */
 
 function ProductDetailsContent({ product }) {
-  const images = [
-    product.image,
-    ...(Array.isArray(product.gallery)
-      ? product.gallery
-      : []),
-  ].filter(Boolean);
+    const images = [
+      product.image,
+      ...(Array.isArray(product.gallery)
+        ? product.gallery
+        : []),
+    ].filter(Boolean);
 
-  const uniqueImages = [...new Set(images)];
+    const uniqueImages = [...new Set(images)];
 
-  const [activeImage, setActiveImage] = useState(
-    uniqueImages[0] || null
-  );
+    const [activeImage, setActiveImage] = useState(
+      uniqueImages[0] || null
+    );
 
+    useEffect(() => {
+      setActiveImage(uniqueImages[0] || null);
+    }, [product.id]);
   /* ---------------------------------------------------------
      Related products
      --------------------------------------------------------- */
