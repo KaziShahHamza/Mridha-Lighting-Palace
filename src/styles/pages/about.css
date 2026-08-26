@@ -30,7 +30,7 @@
 
   color: var(--color-gold);
 
-  font-size: 0.63rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.19em;
   text-transform: uppercase;
@@ -140,7 +140,7 @@
 
   color: rgba(255, 255, 255, 0.7);
 
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.8;
 
   animation: aboutReveal 900ms 360ms both;
@@ -160,7 +160,7 @@
 
   color: rgba(255, 255, 255, 0.55);
 
-  font-size: 0.58rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -209,7 +209,7 @@
 
   color: var(--color-text-light);
 
-  font-size: 0.65rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -222,7 +222,7 @@
 
   color: var(--color-gold);
 
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 .about-intro-content {
@@ -254,7 +254,7 @@
 
   color: var(--color-text-light);
 
-  font-size: 0.92rem;
+  font-size: 1rem;
   line-height: 1.9;
 }
 
@@ -338,7 +338,7 @@
 
   color: var(--color-gold);
 
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.2em;
 }
@@ -361,7 +361,7 @@
 
   color: rgba(255, 255, 255, 0.68);
 
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.8;
 }
 
@@ -430,7 +430,7 @@
 .philosophy-number {
   color: var(--color-gold);
 
-  font-size: 0.62rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.08em;
 }
@@ -451,7 +451,7 @@
 
   color: var(--color-text-light);
 
-  font-size: 0.82rem;
+  font-size: 1rem;
   line-height: 1.8;
 }
 
@@ -506,7 +506,7 @@
 
   color: rgba(255, 255, 255, 0.65);
 
-  font-size: 0.58rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.18em;
 }
@@ -546,7 +546,7 @@
 
   color: var(--color-text-light);
 
-  font-size: 0.88rem;
+  font-size: 1rem;
   line-height: 1.85;
 }
 
@@ -564,7 +564,7 @@
   background: var(--color-charcoal);
   color: var(--color-white);
 
-  font-size: 0.68rem;
+  font-size: 1rem;
   font-weight: 600;
 
   transition:
@@ -661,7 +661,7 @@
 
   color: rgba(255, 255, 255, 0.58);
 
-  font-size: 0.88rem;
+  font-size: 1rem;
   line-height: 1.85;
 }
 
@@ -685,14 +685,14 @@
 .service-point > span {
   color: var(--color-gold);
 
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .service-point h3 {
   margin: 0 0 0.45rem;
 
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -701,7 +701,7 @@
 
   color: rgba(255, 255, 255, 0.45);
 
-  font-size: 0.75rem;
+  font-size: 1rem;
   line-height: 1.7;
 }
 
@@ -778,7 +778,7 @@
 
   color: var(--color-gold);
 
-  font-size: 0.58rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.18em;
 }
@@ -879,7 +879,7 @@
 
   color: rgba(255, 255, 255, 0.65);
 
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.8;
 }
 
@@ -901,7 +901,7 @@
 
   padding: 0 20px;
 
-  font-size: 0.68rem;
+  font-size: 1rem;
   font-weight: 600;
 
   transition:
@@ -1085,7 +1085,7 @@
   .about-hero-content > p {
     max-width: 400px;
 
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
 
   .about-hero-bottom {

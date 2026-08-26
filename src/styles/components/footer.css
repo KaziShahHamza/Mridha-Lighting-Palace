@@ -53,7 +53,7 @@
 
   color: rgba(255, 255, 255, 0.5);
 
-  font-size: 0.5rem;
+  font-size: 1rem;
   letter-spacing: 0.19em;
 }
 
@@ -63,7 +63,7 @@
 
   color: rgba(255, 255, 255, 0.6);
 
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.8;
 }
 
@@ -74,7 +74,7 @@
 
   color: var(--color-gold);
 
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.04em;
 
@@ -103,7 +103,7 @@
 
   color: var(--color-white);
 
-  font-size: 0.72rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -117,7 +117,7 @@
 
 .footer-column li {
   color: rgba(255, 255, 255, 0.58);
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 
 .footer-column a {
@@ -145,7 +145,7 @@
 .footer-contact li span:first-child {
   color: rgba(255, 255, 255, 0.38);
 
-  font-size: 0.65rem;
+  font-size: 1rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -213,7 +213,7 @@
 
   color: rgba(255, 255, 255, 0.4);
 
-  font-size: 0.72rem;
+  font-size: 1rem;
 }
 
 .footer-socials {
@@ -225,7 +225,7 @@
 .footer-socials a {
   color: rgba(255, 255, 255, 0.45);
 
-  font-size: 0.72rem;
+  font-size: 1rem;
 
   transition: color var(--transition-fast);
 }
@@ -245,7 +245,7 @@
   }
 
   .nav-link {
-    font-size: 0.76rem;
+    font-size: 1rem;
   }
 
   .quote-button {
@@ -325,7 +325,7 @@
 
     color: rgba(255, 255, 255, 0.7);
 
-    font-size: 0.9rem;
+    font-size: 1rem;
     letter-spacing: 0.04em;
 
     transition:
@@ -354,7 +354,7 @@
     background: var(--color-gold);
     color: var(--color-white);
 
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: 0.04em;
   }
@@ -415,6 +415,7 @@
 
   .brand-logo-sub {
     font-size: 0.43rem;
+    font-size: 1rem;
   }
 
   .footer-container {

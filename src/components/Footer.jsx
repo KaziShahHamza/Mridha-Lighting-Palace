@@ -236,14 +236,13 @@ function Footer() {
         <div className="footer-bottom-container">
 
           <p>
-            © {year} Mridha Lighting Palace.
+            © {year} Mridha Light Palace.
             All rights reserved.
           </p>
 
 
-          <div className="footer-socials">
+          {/* <div className="footer-socials">
 
-            {/* Facebook placeholder until actual URL is provided */}
 
             <span
               className="footer-social-disabled"
@@ -253,7 +252,6 @@ function Footer() {
             </span>
 
 
-            {/* WhatsApp */}
 
             <a
               href="https://wa.me/8801674332510"
@@ -264,7 +262,7 @@ function Footer() {
               WhatsApp
             </a>
 
-          </div>
+          </div> */}
 
         </div>
 
