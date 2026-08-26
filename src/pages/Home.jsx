@@ -18,14 +18,18 @@ function Home() {
      ===================================== */
 
   const featuredProductIds = [
-    "crystal-white-switch",
-    "conceal-panel",
-    "cylinder-spot-mztd",
-    "magnetic-linear-light",
-    "solar-street-light",
-    "h-802-industrial",
-    "jg-27",
-    "tgd-48w",
+  "surface-panel-24-48w",
+  "sport-1014-10-20w",
+  "modern-chandelier",
+  "gg030g1-ww-blue",
+  "h802-track-spot",
+  "magnetic-linear-light",
+  "ufo-high-bay",
+  "h309-led-track-spot",
+  "mg-115",
+  "d01-street-light",
+  "td0-02-7-12w",
+  "mz-13-7-12w"
   ];
 
   const featuredProducts = featuredProductIds

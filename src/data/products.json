@@ -347,5 +347,505 @@
       "bodyColor": "Black / White",
       "application": "Living Rooms, Dining Rooms, Hotels, Restaurants"
     }
+  },
+  {
+  "id": "hanging-shade-e27",
+  "name": "Hanging Shade E27",
+  "category": "Decorative Lighting",
+  "subcategory": "Modern Hanging LED Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/08/led_office%E0%B9%82%E0%B8%84%E0%B8%A1%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B9%89%E0%B8%B2_gym%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%9F%E0%B8%AA%E0%B8%B3%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%87%E0%B8%B2_description_23.jpg",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/08/image-2962-600x343.jpg",
+    "https://zamanlighting.com/wp-content/uploads/2025/08/hang-chan.jpg"
+  ],
+  "description": "Add a modern touch to your interiors with this Hanging LED Light, offering 5–30W power and high brightness (100–120 lm/W). With excellent color accuracy (CRI ≥80) and adjustable tones from warm to cool (3000K–6500K), it suits dining rooms, living areas, or cafes. Available in elegant black or white finishes.",
+  "specifications": {
+    "wattage": "5–30W",
+    "powerFactor": "≥0.95",
+    "inputVoltage": "AC 85–265V",
+    "cri": "≥80",
+    "brightness": "100–120 lm/W",
+    "colorTemperature": "3000K, 4000K, 6500K",
+    "bodyColor": "Black / White",
+    "application": "Dining Rooms, Living Rooms, Cafes, Restaurants, Interior Spaces"
   }
+},
+{
+  "id": "wall-bracket-sl-53",
+  "name": "Wall Bracket SL-53",
+  "category": "Decorative Lighting",
+  "subcategory": "Wall-Mounted Bracket Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/08/WL1329-600x600-1.jpg",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/08/WL16016-600x600-1.jpg",
+    "https://zamanlighting.com/wp-content/uploads/2025/08/WL1329-600x600-1.jpg"
+  ],
+  "description": "Elevate your interiors with this elegant wall bracket light, designed to add style and sophistication to any space. Perfect for living rooms, bedrooms, hallways, hotels, and decorative interiors, it combines attractive design with functional illumination.",
+  "specifications": {
+    "style": "Modern / Classic",
+    "mountType": "Wall Mounted",
+    "material": "Metal & Glass/Crystal",
+    "lightSource": "LED or Compatible Bulbs",
+    "colorFinish": "Gold, Silver, Black, or White",
+    "application": "Living Room, Bedroom, Hallway, Hotel, Decorative Interior Spaces"
+  }
+},
+{
+  "id": "d01-street-light",
+  "name": "D01 LED Street Light",
+  "category": "Outdoor Lighting",
+  "subcategory": "LED Street Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/08/HTB1q7YOairxK1RkHFCcq6AQCVXai-edited.webp",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/08/128335726_3586108191411590_1729880672759947168_n-600x600.jpg",
+    "https://zamanlighting.com/wp-content/uploads/2025/08/603379630-1999557044-600x600-1.jpg"
+  ],
+  "description": "Light up streets, parks, and outdoor spaces with this high-performance LED Street Light. Offering 30–200W power, high efficiency (100–130 lm/W), and excellent color rendering (CRI ≥80), it provides bright, uniform illumination. Available in warm, neutral, or daylight tones (2000K–6500K) with durable COB-SMD design for long-lasting outdoor use.",
+  "specifications": {
+    "wattage": "30–200W",
+    "powerFactor": "0.95–1",
+    "inputVoltage": "AC 85–265V",
+    "cri": "≥80",
+    "brightness": "100–130 lm/W",
+    "colorTemperature": "2000K, 3000K, 6500K",
+    "ledType": "COB-SMD",
+    "application": "Roads, Streets, Parks, Highways, Parking Areas, Outdoor Public Spaces"
+  }
+},
+{
+  "id": "d08-street-light",
+  "name": "D08 LED Street Light",
+  "category": "Outdoor Lighting",
+  "subcategory": "LED Street Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/08/220-volt-80-watt-ip66-outdoor-lighting-led-street-light-970.jpg",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/08/c85cff52d6677574d197022023e200b0.jpg_720x720q80.jpg"
+  ],
+  "description": "Light up streets, parks, and outdoor spaces with this high-performance LED Street Light. Offering 30–200W power, high efficiency (100–130 lm/W), and excellent color rendering (CRI ≥80), it provides bright, uniform illumination. Available in warm, neutral, or daylight tones (2000K–6500K) with durable COB-SMD design for long-lasting outdoor use.",
+  "specifications": {
+    "wattage": "30–200W",
+    "powerFactor": "0.95–1",
+    "inputVoltage": "AC 85–265V",
+    "cri": "≥80",
+    "brightness": "100–130 lm/W",
+    "colorTemperature": "2000K, 3000K, 6500K",
+    "ledType": "COB-SMD",
+    "application": "Roads, Streets, Parks, Highways, Parking Areas, Outdoor Public Spaces"
+  }
+},
+{
+  "id": "gg030g1-ww-blue",
+  "name": "GG030G1- WW + Blue",
+  "category": "Outdoor Lighting",
+  "subcategory": "Decorative Garden Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/09/678a132d6e1841341.jpg",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/09/Image-01-7-e1748430991937.webp",
+    "https://zamanlighting.com/wp-content/uploads/2025/09/71rJOhLAaGL.jpg"
+  ],
+  "description": "Light up your garden with our energy-efficient Garden Light, designed with COB–SMD technology for consistent brightness. With wattage options from 3W to 72W, high CRI, and multiple color temperatures, it creates the perfect outdoor ambiance. Built for durability, it ensures reliable, stylish, and eco-friendly illumination for pathways, lawns, and landscapes.",
+  "specifications": {
+    "wattage": "3–72W",
+    "powerFactor": "≤0.6–0.90",
+    "inputVoltage": "AC 85–265V",
+    "cri": "≥80",
+    "lumens": "100–120 lm/W",
+    "colorTemperature": "2700K, 3000K, 6500K",
+    "type": "COB-SMD",
+    "application": "Gardens, Pathways, Lawns, Landscapes, Resorts, Outdoor Decorative Areas"
+  }
+},
+{
+  "id": "mg-115",
+  "name": "MG 115 Underwater Light",
+  "category": "Outdoor Lighting",
+  "subcategory": "LED Flood & Underwater Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/09/71kjfiMcszL.jpg",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/09/splight01.jpg",
+    "https://zamanlighting.com/wp-content/uploads/2025/09/316-Stainless-Steel-LED-Underwater-Light-IP68-15W-LED-Underwater-Outdoor-Modern-Lighting-Pool-Fiting-Waterproof.avif"
+  ],
+  "description": "Enhance pools, fountains, and water features with our IP68-rated Underwater Light. Designed for safety and durability, it operates at 3–18W with multiple voltage options. Available in single or RGB colors, it delivers vibrant, energy-efficient illumination that creates a stunning visual effect for gardens, resorts, and decorative landscapes.",
+  "specifications": {
+    "wattage": "3–18W",
+    "powerFactor": "0.40–0.80",
+    "inputVoltage": "6V / 12V / 20V",
+    "ipRating": "IP68 (Fully Waterproof)",
+    "colorOptions": "Single & RGB",
+    "application": "Swimming Pools, Fountains, Water Features, Resorts, Gardens, Decorative Landscapes"
+  }
+},
+{
+  "id": "plate-601",
+  "name": "Plate 601 Underwater Light",
+  "category": "Outdoor Lighting",
+  "subcategory": "LED Flood & Underwater Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/09/Image-03-5-e1748426654820.webp",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/09/711t9fYxHXL._UF8941000_QL80_.jpg"
+  ],
+  "description": "Enhance pools, fountains, and water features with our IP68-rated Underwater Light. Designed for safety and durability, it operates at 3–18W with multiple voltage options. Available in single or RGB colors, it delivers vibrant, energy-efficient illumination that creates a stunning visual effect for gardens, resorts, and decorative landscapes.",
+  "specifications": {
+    "wattage": "3–18W",
+    "powerFactor": "0.40–0.80",
+    "inputVoltage": "6V / 12V / 20V",
+    "ipRating": "IP68 (Fully Waterproof)",
+    "colorOptions": "Single & RGB",
+    "application": "Swimming Pools, Fountains, Water Features, Resorts, Gardens, Decorative Landscapes"
+  }
+},
+{
+  "id": "ph-flood-light",
+  "name": "PH LED Flood Light",
+  "category": "Outdoor Lighting",
+  "subcategory": "LED Flood & Underwater Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/09/71eOnR1w0lL.jpg",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/09/Flood-7.jpg"
+  ],
+  "description": "Our LED Flood Light delivers powerful outdoor illumination for gardens, facades, parking areas, and industrial spaces. Ranging from 10W to 800W, it ensures high brightness with 100–130 lm/W efficiency and a wide 120° beam angle. Built for durability, it offers multiple color temperatures and long-lasting performance in all weather conditions.",
+  "specifications": {
+    "wattage": "10–800W",
+    "powerFactor": "0.95–1",
+    "inputVoltage": "AC 85–300V",
+    "cri": "≥80",
+    "lumens": "100–130 lm/W",
+    "colorTemperature": "2000K, 3000K, 6500K",
+    "beamAngle": "120°",
+    "application": "Gardens, Building Facades, Parking Areas, Industrial Spaces, Outdoor Areas"
+  }
+},
+{
+  "id": "tgd-48w-ww",
+  "name": "TGD-48W-WW Garden Light",
+  "category": "Outdoor Lighting",
+  "subcategory": "Decorative Garden Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/09/Image-03-6-e1748430328214.webp",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/09/IP65-waterproof-projection-garden-lights-18W-spotlight-building-stadiums-led-outdoor-floodlights-5.webp"
+  ],
+  "description": "Light up your garden with our energy-efficient Garden Light, designed with COB–SMD technology for consistent brightness. With wattage options from 3W to 72W, high CRI, and multiple color temperatures, it creates the perfect outdoor ambiance. Built for durability, it ensures reliable, stylish, and eco-friendly illumination for pathways, lawns, and landscapes.",
+  "specifications": {
+    "wattage": "3–72W",
+    "powerFactor": "≤0.6–0.90",
+    "inputVoltage": "AC 85–265V",
+    "cri": "≥80",
+    "lumens": "100–120 lm/W",
+    "colorTemperature": "2700K, 3000K, 6500K",
+    "type": "COB-SMD",
+    "application": "Gardens, Pathways, Lawns, Landscapes, Resorts, Outdoor Decorative Areas"
+  }
+},
+{
+  "id": "h802-track-spot",
+  "name": "H-802 LED Track Spot",
+  "category": "Commercial Lighting",
+  "subcategory": "LED Track & Focus Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/08/194a71a214bf0f32a108fc2c2cab966b.jpg",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/08/5159xX-8oeL._UF8941000_QL80_.jpg",
+    "https://zamanlighting.com/wp-content/uploads/2025/08/S3687c8f3b6974f6f9662c485316fb1c9p.jpg_640x640q90.webp"
+  ],
+  "description": "Illuminate commercial and industrial spaces with this LED Track Spot Light. Offering 7–50W power and high efficiency (100–120 lm/W), it delivers bright, focused light with excellent color accuracy (CRI ≥80). Available in sleek black or white finishes and warm, neutral, or cool tones (3000K–6500K) for versatile applications.",
+  "specifications": {
+    "wattage": "7–50W",
+    "powerFactor": "≥0.95",
+    "inputVoltage": "AC 85–265V",
+    "cri": "≥80",
+    "brightness": "100–120 lm/W",
+    "colorTemperature": "3000K, 4000K, 6500K",
+    "bodyColor": "Black / White",
+    "application": "Retail Stores, Showrooms, Galleries, Offices, Commercial Spaces"
+  }
+},
+{
+  "id": "liener-light",
+  "name": "Liener Linear Light",
+  "category": "Commercial Lighting",
+  "subcategory": "Linear, Magnetic, Profile & LED Strip Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/09/p202404191448275fb3a-1.webp",
+  "gallery": [],
+  "description": "Our Linear, Profile, Magnetic & Strip Light offers modern and versatile illumination for commercial and industrial applications. With 5–20W efficiency, high lumen output, and options in single or RGB colors, it ensures both functionality and style. Durable black or white body finishes make it perfect for offices, showrooms, and retail spaces.",
+  "specifications": {
+    "wattage": "5–20W",
+    "powerFactor": "≤0.65–0.95",
+    "inputVoltage": "AC 85–265V",
+    "cri": "≥80",
+    "lumens": "100–120 lm/W",
+    "colorOptions": "Single & RGB",
+    "bodyColor": "Black / White",
+    "application": "Offices, Showrooms, Retail Stores, Commercial Interiors, Industrial Spaces"
+  }
+},
+{
+  "id": "ufo-high-bay",
+  "name": "UFO High Bay Light",
+  "category": "Industrial Lighting",
+  "subcategory": "LED High Bay Industrial Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/09/71jTXZay7hL.jpg",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/09/717LhVbHvXS._UF10001000_QL80_.jpg",
+    "https://zamanlighting.com/wp-content/uploads/2025/09/71RGs5IlDsL._UF10001000_QL80_.jpg"
+  ],
+  "description": "Our Industrial High Bay Light delivers powerful illumination for factories, warehouses, and large indoor spaces. With wattage options from 50W to 200W, high efficiency of 100–130 lm/W, and versatile CCT settings, it ensures reliable and energy-saving performance. COB-SMD design provides durability and bright, consistent lighting for demanding industrial environments.",
+  "specifications": {
+    "wattage": "50–200W",
+    "powerFactor": "≤0.95–1",
+    "inputVoltage": "AC 85–265V",
+    "cri": "≥80",
+    "lumens": "100–130 lm/W",
+    "colorTemperature": "2000K, 3000K, 6500K",
+    "type": "COB-SMD",
+    "application": "Factories, Warehouses, Workshops, Manufacturing Facilities, Industrial Spaces"
+  }
+},
+{
+  "id": "magnetic-linear-light",
+  "name": "Magnetic Linear Light",
+  "category": "Commercial Lighting",
+  "subcategory": "Linear, Magnetic, Profile & LED Strip Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/09/Image-03-11-e1748434891699.webp",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/09/H368880013b184577a39880a1013f921dK.jpg_720x720q50.avif",
+    "https://zamanlighting.com/wp-content/uploads/2025/09/209d3b2983257f31d23224c93fdc343a.jpg"
+  ],
+  "description": "Our Linear, Profile, Magnetic & Strip Light offers modern and versatile illumination for commercial and industrial applications. With 5–20W efficiency, high lumen output, and options in single or RGB colors, it ensures both functionality and style. Durable black or white body finishes make it perfect for offices, showrooms, and retail spaces.",
+  "specifications": {
+    "wattage": "5–20W",
+    "powerFactor": "≤0.65–0.95",
+    "inputVoltage": "AC 85–265V",
+    "cri": "≥80",
+    "lumens": "100–120 lm/W",
+    "colorOptions": "Single & RGB",
+    "bodyColor": "Black / White",
+    "application": "Offices, Showrooms, Retail Stores, Commercial Interiors, Display Areas"
+  }
+},
+{
+  "id": "ufo-reflector-high-bay",
+  "name": "UFO High Bay with Reflector",
+  "category": "Industrial Lighting",
+  "subcategory": "LED High Bay Industrial Lights",
+  "image": "https://zamanlighting.com/wp-content/uploads/2025/09/HTB11L1BJgmTBuNjy1Xb761MrVXaK.avif",
+  "gallery": [
+    "https://zamanlighting.com/wp-content/uploads/2025/09/led-high-bay-light-500x500-1.webp",
+    "https://zamanlighting.com/wp-content/uploads/2025/09/Hcc028d82c7004649b40861ccfbfae40f6.avif"
+  ],
+  "description": "Our Industrial High Bay Light delivers powerful illumination for factories, warehouses, and large indoor spaces. With wattage options from 50W to 200W, high efficiency of 100–130 lm/W, and versatile CCT settings, it ensures reliable and energy-saving performance. COB-SMD design provides durability and bright, consistent lighting for demanding industrial environments.",
+  "specifications": {
+    "wattage": "50–200W",
+    "powerFactor": "≤0.95–1",
+    "inputVoltage": "AC 85–265V",
+    "cri": "≥80",
+    "lumens": "100–130 lm/W",
+    "colorTemperature": "2000K, 3000K, 6500K",
+    "type": "COB-SMD",
+    "application": "Factories, Warehouses, Workshops, Manufacturing Facilities, Industrial Spaces"
+  }
+},
+
+  {
+    "id": "conceal-panel-40-72w",
+    "name": "Conceal Panel 40W–72W",
+    "category": "Indoor Lighting",
+    "subcategory": "LED Concealed & Surface Panel Lights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/61rRSK2Z-KL._UF8941000_QL80_.jpg",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/p201903081557540807231.webp",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/515DwNOoQ1L._UF10001000_QL80_.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/Panel-Light-Amazon-1.webp"
+    ],
+    "description": "Brighten your indoor spaces with this versatile LED Panel, available in conceal and surface-mount designs. Delivering 3–72W power and high efficiency (100–120 lm/W), it provides clear, uniform light with excellent color rendering (CRI ≥80). Choose warm, neutral, or cool tones (3000K–6500K) for a modern, energy-saving lighting solution.",
+    "specifications": {
+      "wattage": "3–72W",
+      "powerFactor": "≥0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "brightness": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "beamAngle": "120°",
+      "application": "Homes, Offices, Shops, Commercial Interiors"
+    }
+  },
+  {
+    "id": "cylinder-spot-mztd-15-24w",
+    "name": "Cylinder Spot MZTD 15W–24W",
+    "category": "Indoor Lighting",
+    "subcategory": "LED Surface-Mounted Downlights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/0a3c8b962e62628f3aaffbafc5e8fa90.jpg",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/61SedsKDZ2L._UF10001000_QL80_.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/61Px83AFQ6L._UF8941000_QL80_.jpg"
+    ],
+    "description": "Illuminate your indoor spaces with the LED Surface Down Light. Offering 5–24W power, high efficiency (100–120 lm/W), and excellent color rendering (CRI ≥80), it delivers bright, uniform light. Available in warm, neutral, and cool tones (3000K–6500K) with sleek black or white finishes, perfect for homes, offices, and commercial spaces.",
+    "specifications": {
+      "model": "NL-16 Cylinder Spot (MZTD-15W-24W)",
+      "wattage": "5–24W",
+      "powerFactor": "≥0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "brightness": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "bodyColor": "Black / White",
+      "application": "Homes, Offices, Shops, Commercial Interiors"
+    }
+  },
+  {
+    "id": "moon-surface-6-24w",
+    "name": "Moon Surface 6W–24W",
+    "category": "Indoor Lighting",
+    "subcategory": "LED Concealed & Surface Panel Lights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/white-flush-mount-ceiling-lights-dse113120srdwh-64_600.avif",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/LPL18WS3_1.jpg"
+    ],
+    "description": "Brighten your indoor spaces with this versatile LED Panel, available in conceal and surface-mount designs. Delivering 3–72W power and high efficiency (100–120 lm/W), it provides clear, uniform light with excellent color rendering (CRI ≥80). Choose warm, neutral, or cool tones (3000K–6500K) for a modern, energy-saving lighting solution.",
+    "specifications": {
+      "wattage": "3–72W",
+      "powerFactor": "≥0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "brightness": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "beamAngle": "120°",
+      "application": "Homes, Offices, Shops, Commercial Interiors"
+    }
+  },
+  {
+    "id": "mz-13-7-12w",
+    "name": "MZ-13 Surface Downlight 7W–12W",
+    "category": "Indoor Lighting",
+    "subcategory": "LED Surface-Mounted Downlights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/A1820_4.webp",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/510Eq1jV-sL._UF8941000_QL80_.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/my-11134207-7r98s-lzbh6ekjkvvt57.jpeg"
+    ],
+    "description": "Illuminate your indoor spaces with the LED Surface Down Light. Offering 5–24W power, high efficiency (100–120 lm/W), and excellent color rendering (CRI ≥80), it delivers bright, uniform light. Available in warm, neutral, and cool tones (3000K–6500K) with sleek black or white finishes, perfect for homes, offices, and commercial spaces.",
+    "specifications": {
+      "wattage": "5–24W",
+      "powerFactor": "≥0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "brightness": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "bodyColor": "Black / White",
+      "application": "Homes, Offices, Shops, Commercial Interiors"
+    }
+  },
+  {
+    "id": "sport-1014-10-20w",
+    "name": "Sport 1014 Spotlight 10W–20W",
+    "category": "Indoor Lighting",
+    "subcategory": "Concealed LED Spotlights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/Image-01aaaaaa-e1748444881269.png",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/Image-01aaaaaa-e1748444881269.png",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/Hd55ec370ad8d43988e03ecc5d62664a5d.avif"
+    ],
+    "description": "Enhance your indoor spaces with this Conceal Spot Light. Offering 1–30W power and high efficiency (100–120 lm/W), it provides bright, even lighting with excellent color accuracy (CRI ≥80). Choose from warm, neutral, or cool light (3000K–6500K). Its wide 120° beam angle ensures stylish, functional illumination for any room.",
+    "specifications": {
+      "wattage": "1–30W",
+      "powerFactor": "≤0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "brightness": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "beamAngle": "120°",
+      "application": "Homes, Offices, Hotels, Shops, Commercial Interiors"
+    }
+  },
+  {
+    "id": "8088-stair-floor-light-3w",
+    "name": "8088 Stair & Floor Light 3W",
+    "category": "Outdoor Lighting",
+    "subcategory": "LED Street & Stair Lights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/09/61L-i0D9jvL._UL500_.jpg",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/09/61CaPxra7XL.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/09/Image-03-13-e1748435682117.webp"
+    ],
+    "description": "Illuminate pathways and stairs with our durable Floor Stair Light. Designed with 1–10W power, high efficiency, and IP65 protection, it’s ideal for both indoor and outdoor use. Available in single or RGB colors, it enhances safety while adding a stylish accent to residential, commercial, and landscape lighting projects.",
+    "specifications": {
+      "wattage": "1–10W",
+      "powerFactor": "≤0.60–0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "lumens": "100–120 lm/W",
+      "colorOptions": "Single & RGB",
+      "ipRating": "IP65 (water & dust resistant)",
+      "application": "Stairs, Pathways, Floors, Gardens, Landscapes"
+    }
+  },
+  {
+    "id": "surface-panel-24-48w",
+    "name": "Surface Panel 24W–48W",
+    "category": "Indoor Lighting",
+    "subcategory": "LED Concealed & Surface Panel Lights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/1229000360_standard_led_ip_0-325-110.webp",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/product_large_57641.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/f0b67f2823a9288cb4944ac62e12adff.jpg"
+    ],
+    "description": "Brighten your indoor spaces with this versatile LED Panel, available in conceal and surface-mount designs. Delivering 3–72W power and high efficiency (100–120 lm/W), it provides clear, uniform light with excellent color rendering (CRI ≥80). Choose warm, neutral, or cool tones (3000K–6500K) for a modern, energy-saving lighting solution.",
+    "specifications": {
+      "wattage": "3–72W",
+      "powerFactor": "≥0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "brightness": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "beamAngle": "120°",
+      "application": "Homes, Offices, Shops, Commercial Interiors"
+    }
+  },
+  {
+    "id": "td0-02-7-12w",
+    "name": "TD0-02 Concealed Spotlight 7W–12W",
+    "category": "Indoor Lighting",
+    "subcategory": "Concealed LED Spotlights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/61lHUkFgWvL._UF10001000_QL80_.jpg",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/613f-bRF0EL._UF10001000_QL80_.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/61ntaYY8YYL._UF350350_QL80_.jpg"
+    ],
+    "description": "Illuminate your space efficiently with this Conceal Spot Light. With 1–30W power and a high power factor (≤0.95), it delivers bright, consistent light (100–120 lm/W). Available in warm, neutral, and cool tones (3000K, 4000K, 6500K) with a 120° beam angle. Perfect for stylish indoor lighting solutions.",
+    "specifications": {
+      "wattage": "1–30W",
+      "powerFactor": "≤0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "lumens": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "beamAngle": "120°",
+      "application": "Homes, Offices, Hotels, Shops, Commercial Interiors"
+    }
+  },
+  {
+    "id": "smd-surface-5-10w",
+    "name": "SMD Surface Light 5W–10W",
+    "category": "Indoor Lighting",
+    "subcategory": "LED Surface-Mounted Downlights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/indoor-surface-light-500x500-1.webp",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/a354abed6c21a12d8c91afbde498b49a8dd723ac_original.jpeg",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/2.jpg"
+    ],
+    "description": "Illuminate your indoor spaces with the LED Surface Down Light. Offering 5–24W power, high efficiency (100–120 lm/W), and excellent color rendering (CRI ≥80), it delivers bright, uniform light. Available in warm, neutral, and cool tones (3000K–6500K) with sleek black or white finishes, perfect for homes, offices, and commercial spaces.",
+    "specifications": {
+      "wattage": "5–24W",
+      "powerFactor": "≥0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "brightness": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "bodyColor": "Black / White",
+      "application": "Homes, Offices, Shops, Commercial Interiors"
+    }
+  }
+
+
+
+
+  
 ]
