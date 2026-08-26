@@ -46,7 +46,7 @@ function Home() {
       description:
         "Clean, functional lighting designed for contemporary interiors.",
       image:
-        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=crop&w=1200&q=85",
+        "https://www.illawarramercury.com.au/images/transform/v1/crop/frm/rosie.ryan%40fairfaxmedia.com.au/39592f73-64b2-44fb-9b1c-58e77ccb5c67.png/r0_21_1163_716_w1200_h678_fmax.jpg",
     },
     {
       title: "Decorative Lighting",
@@ -54,7 +54,7 @@ function Home() {
       description:
         "Statement pieces that bring atmosphere, character and warmth.",
       image:
-        "https://images.unsplash.com/photo-1543198126-a8ad8e47fb22?auto=format&fit=crop&w=1200&q=85",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFTz5rG89CqGppK8x9A0Uxu8_JyfKuP5DBjtbGGiCelQ9II2FHgajnGuU&s=10",
     },
     {
       title: "Outdoor Lighting",
@@ -62,7 +62,7 @@ function Home() {
       description:
         "Lighting solutions for streets, gardens, landscapes and exterior spaces.",
       image:
-        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1200&q=85",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD-epoNGs2z_KP0VFEzIGci1SW8T9wzDG2GGaEbsafdtQz8i21LljbAeA&s=10",
     },
     {
       title: "Commercial & Industrial",
@@ -70,7 +70,7 @@ function Home() {
       description:
         "Reliable illumination for demanding commercial and industrial environments.",
       image:
-        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=85",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJW34EW-8xJC-tB44Vppyqv5UZoCrmD_QUATWVRr6ISoF11YyOWz4GuUQ&s=10",
     },
   ];
 

@@ -32,8 +32,11 @@
   inset: -3%;
 
   background-image: url(
-    "https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2020/08/18/8698a1502655be3e26a340bc39fd012f.jpg"
+    "https://www.ledvance.com/05_LEDVANCE_and_Partner/12449499/image-thumb__12449499__socialThumb/asset-12449499_VIVARES_DALI_Open_Office.jpg"
   );
+  /* background-image: url(
+    "https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2020/08/18/8698a1502655be3e26a340bc39fd012f.jpg"
+  ); */
 
   background-size: cover;
   background-position: center;
