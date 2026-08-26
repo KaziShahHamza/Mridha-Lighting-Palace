@@ -93,6 +93,10 @@
     "subcategory": "Solar Street Lights",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSxYmGh8KFq9XQACAPJl0U7R6--NEYNeQfEiqz8vEDnA&s=10",
     "description": "Solar-powered outdoor lighting solution designed for streets, pathways and open areas.",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE7rpsF65hhDf2EuEJxTLW12mQgOTY60LK7wxLDCMgsg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6eU1eQ0y0h4vVDxsys0F6E_LUCWudoIxhJXW4IIdqgQ&s=10"
+    ],
     "specifications": {
       "type": "Solar LED Street Light",
       "application": "Roads, Streets, Outdoor Areas"
@@ -165,6 +169,10 @@
     "subcategory": "LED High Bay Lights",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZq26ON7lbbcSjcrCciNLHfjpEIOEguLfgsoGg5lHS7w&s=10",
     "description": "Industrial high bay lighting solution designed for high-ceiling commercial and industrial spaces.",
+      "gallery": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKfoO17hoRtBBF1SPCI5KLDQdUDjvt_zlSMtFuLmQy_A&s=10",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6eU1eQ0y0h4vVDxsys0F6E_LUCWudoIxhJXW4IIdqgQ&s=10"
+  ],
     "specifications": {
       "wattage": "50W–200W",
       "type": "UFO High Bay",

@@ -13,7 +13,27 @@ import "../styles/pages/home.css";
 
 function Home() {
 
-  const featuredProducts = products.slice(0, 6);
+  /* =====================================
+     MANUALLY SELECTED FEATURED PRODUCTS
+     ===================================== */
+
+  const featuredProductIds = [
+    "crystal-white-switch",
+    "conceal-panel",
+    "cylinder-spot-mztd",
+    "magnetic-linear-light",
+    "solar-street-light",
+    "h-802-industrial",
+    "jg-27",
+    "tgd-48w",
+  ];
+
+  const featuredProducts = featuredProductIds
+    .map((id) =>
+      products.find((product) => product.id === id)
+    )
+    .filter(Boolean);
+
 
   const categories = [
     {

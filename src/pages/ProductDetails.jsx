@@ -62,9 +62,39 @@ function ProductDetailsContent({ product }) {
       uniqueImages[0] || null
     );
 
+    const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+
     useEffect(() => {
       setActiveImage(uniqueImages[0] || null);
     }, [product.id]);
+
+
+    const activeImageIndex = uniqueImages.indexOf(
+      activeImage
+    );
+
+    const showPreviousImage = () => {
+      if (uniqueImages.length <= 1) return;
+
+      const previousIndex =
+        activeImageIndex <= 0
+          ? uniqueImages.length - 1
+          : activeImageIndex - 1;
+
+      setActiveImage(uniqueImages[previousIndex]);
+    };
+
+    const showNextImage = () => {
+      if (uniqueImages.length <= 1) return;
+
+      const nextIndex =
+        activeImageIndex >= uniqueImages.length - 1
+          ? 0
+          : activeImageIndex + 1;
+
+      setActiveImage(uniqueImages[nextIndex]);
+    };
+
   /* ---------------------------------------------------------
      Related products
      --------------------------------------------------------- */
@@ -176,7 +206,25 @@ function ProductDetailsContent({ product }) {
 
             <div className="product-gallery">
 
-              <div className="product-gallery-main">
+              <div 
+                className="product-gallery-main"
+                onClick={() => {
+                  if (activeImage) {
+                    setIsLightboxOpen(true);
+                  }
+                }}
+                role="button"
+                tabIndex={activeImage ? 0 : -1}
+                aria-label="Open product image gallery"
+                onKeyDown={(event) => {
+                  if (
+                    activeImage &&
+                    (event.key === "Enter" || event.key === " ")
+                  ) {
+                    setIsLightboxOpen(true);
+                  }
+                }}
+              >
 
                 {activeImage ? (
                   <img
@@ -450,6 +498,74 @@ function ProductDetailsContent({ product }) {
 
         </section>
 
+      )}
+
+      {isLightboxOpen && activeImage && (
+        <div
+          className="product-lightbox"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Product image viewer"
+          onClick={() => setIsLightboxOpen(false)}
+        >
+
+          <button
+            type="button"
+            className="product-lightbox-close"
+            onClick={() => setIsLightboxOpen(false)}
+            aria-label="Close image viewer"
+          >
+            ×
+          </button>
+
+
+          {uniqueImages.length > 1 && (
+            <button
+              type="button"
+              className="product-lightbox-prev"
+              onClick={(event) => {
+                event.stopPropagation();
+                showPreviousImage();
+              }}
+              aria-label="Previous image"
+            >
+              ←
+            </button>
+          )}
+
+
+          <div
+            className="product-lightbox-content"
+            onClick={(event) => event.stopPropagation()}
+          >
+
+            <img
+              src={activeImage}
+              alt={product.name}
+            />
+
+            <div className="product-lightbox-counter">
+              {activeImageIndex + 1} / {uniqueImages.length}
+            </div>
+
+          </div>
+
+
+          {uniqueImages.length > 1 && (
+            <button
+              type="button"
+              className="product-lightbox-next"
+              onClick={(event) => {
+                event.stopPropagation();
+                showNextImage();
+              }}
+              aria-label="Next image"
+            >
+              →
+            </button>
+          )}
+
+        </div>
       )}
 
     </>

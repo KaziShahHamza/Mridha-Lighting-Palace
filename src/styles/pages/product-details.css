@@ -71,7 +71,7 @@
    ========================================================= */
 
 .product-main {
-  padding: 6rem 0 8rem;
+  padding: 3rem 0 8rem;
 
   background: var(--color-off-white);
 }
@@ -83,11 +83,10 @@
     minmax(0, 1.08fr)
     minmax(360px, 0.92fr);
 
-  gap: 6rem;
+  gap: 3rem;
 
   align-items: start;
 }
-
 
 /* =========================================================
    GALLERY
@@ -95,15 +94,16 @@
 
 .product-gallery {
   min-width: 0;
-
   position: sticky;
-
   top: 110px;
+
+  /* Make the entire gallery smaller */
+  width: 80%;
+  margin-inline: auto;
 }
 
 .product-gallery-main {
   position: relative;
-
   aspect-ratio: 1 / 1;
 
   overflow: hidden;
@@ -927,6 +927,317 @@
   .related-product-image img,
   .related-product-image > span {
     transition: none;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .product-gallery {
+    width: 100%;
+  }
+}
+
+
+/* =========================================================
+   PRODUCT IMAGE LIGHTBOX
+   ========================================================= */
+
+.product-gallery-main {
+  cursor: zoom-in;
+}
+
+
+/* =========================================================
+   LIGHTBOX
+   ========================================================= */
+
+.product-lightbox {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 3000;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 3rem;
+
+  background:
+    rgba(10, 10, 10, 0.94);
+
+  animation:
+    lightboxFadeIn
+    220ms
+    ease both;
+}
+
+
+/* =========================================================
+   LIGHTBOX IMAGE
+   ========================================================= */
+
+.product-lightbox-content {
+  position: relative;
+
+  max-width: min(
+    1000px,
+    82vw
+  );
+
+  max-height: 85vh;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  animation:
+    lightboxImageIn
+    300ms
+    ease both;
+}
+
+.product-lightbox-content img {
+  display: block;
+
+  max-width: 100%;
+  max-height: 80vh;
+
+  width: auto;
+  height: auto;
+
+  object-fit: contain;
+
+  box-shadow:
+    0 25px 80px
+    rgba(0, 0, 0, 0.45);
+}
+
+
+/* =========================================================
+   CLOSE BUTTON
+   ========================================================= */
+
+.product-lightbox-close {
+  position: absolute;
+
+  top: 25px;
+  right: 30px;
+
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.18);
+
+  background:
+    rgba(255, 255, 255, 0.06);
+
+  color: var(--color-white);
+
+  font-size: 2rem;
+  font-weight: 300;
+
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.product-lightbox-close:hover {
+  background:
+    rgba(255, 255, 255, 0.12);
+
+  border-color:
+    var(--color-gold);
+
+  color:
+    var(--color-gold);
+}
+
+
+/* =========================================================
+   PREVIOUS / NEXT
+   ========================================================= */
+
+.product-lightbox-prev,
+.product-lightbox-next {
+  position: absolute;
+
+  top: 50%;
+
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.18);
+
+  background:
+    rgba(23, 23, 23, 0.65);
+
+  color:
+    var(--color-white);
+
+  font-size: 1.25rem;
+
+  cursor: pointer;
+
+  transform: translateY(-50%);
+
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.product-lightbox-prev {
+  left: 30px;
+}
+
+.product-lightbox-next {
+  right: 30px;
+}
+
+.product-lightbox-prev:hover,
+.product-lightbox-next:hover {
+  background:
+    var(--color-gold);
+
+  border-color:
+    var(--color-gold);
+
+  color:
+    var(--color-white);
+}
+
+
+/* =========================================================
+   IMAGE COUNTER
+   ========================================================= */
+
+.product-lightbox-counter {
+  position: absolute;
+
+  bottom: -2.2rem;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  color:
+    rgba(255, 255, 255, 0.65);
+
+  font-size: 0.65rem;
+  font-weight: 500;
+
+  letter-spacing: 0.12em;
+}
+
+
+/* =========================================================
+   ANIMATIONS
+   ========================================================= */
+
+@keyframes lightboxFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes lightboxImageIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .product-lightbox {
+    padding: 1rem;
+  }
+
+  .product-lightbox-content {
+    max-width: 92vw;
+    max-height: 78vh;
+  }
+
+  .product-lightbox-content img {
+    max-height: 72vh;
+  }
+
+  .product-lightbox-close {
+    top: 15px;
+    right: 15px;
+
+    width: 42px;
+    height: 42px;
+
+    font-size: 1.7rem;
+  }
+
+  .product-lightbox-prev,
+  .product-lightbox-next {
+    width: 42px;
+    height: 42px;
+
+    font-size: 1rem;
+  }
+
+  .product-lightbox-prev {
+    left: 10px;
+  }
+
+  .product-lightbox-next {
+    right: 10px;
+  }
+
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .product-lightbox,
+  .product-lightbox-content {
+    animation: none;
   }
 
 }
