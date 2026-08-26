@@ -465,7 +465,7 @@ function Contact() {
           ===================================================== */}
 
       <section className="contact-map-section">
-
+{/* 
         <div className="contact-map-header">
 
           <div className="contact-eyebrow">
@@ -479,7 +479,7 @@ function Contact() {
             <em>MLP.</em>
           </h2>
 
-        </div>
+        </div> */}
 
 
         {/* 

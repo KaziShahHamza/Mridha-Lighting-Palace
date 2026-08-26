@@ -587,10 +587,17 @@
 
 .related-product-card {
   display: block;
-
   min-width: 0;
-
   color: inherit;
+
+  border: 1px solid #cfcece;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.related-product-card:hover { 
+  border: 1px solid var(--color-gold);
 }
 
 .related-product-image {
@@ -601,6 +608,11 @@
   overflow: hidden;
 
   background: #eee;
+
+  border-bottom: 1px solid #cfcece;
+  overflow: hidden;
+  background: #ffffff;
+
 }
 
 .related-product-image img {
@@ -661,7 +673,7 @@
 }
 
 .related-product-content {
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 .related-product-content small {

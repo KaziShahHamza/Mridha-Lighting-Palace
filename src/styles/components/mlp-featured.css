@@ -178,6 +178,15 @@
   padding: 0;
 
   background: transparent;
+
+  border: 1px solid #cfcece;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.mlp-featured-card:hover { 
+  border: 1px solid var(--color-gold);
 }
 
 
@@ -213,6 +222,10 @@
 
   transition:
     transform 650ms cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  border-bottom: 1px solid #cfcece;
+  overflow: hidden;
+  background: #ffffff;
 }
 
 .mlp-featured-card:hover .mlp-featured-image {
@@ -311,7 +324,7 @@
 .mlp-featured-content {
   width: 100%;
 
-  padding-top: 18px;
+  padding: 18px;
 }
 
 /* =========================================================
