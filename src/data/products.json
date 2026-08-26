@@ -97,28 +97,31 @@
       "cri": "≥80",
       "brightness": "100–120 lm/W",
       "colorTemperature": "3000K, 4000K, 6500K",
-      "beamAngle": "120°"
+      "beamAngle": "120°",
+      "application": "Living Room, Bedroom, Office, Commercial Interiors"
+      
     }
-  },
-  {
+},
+{
     "id": "6048-concealed-spotlight",
     "name": "6048 Concealed Spotlight",
     "category": "Indoor Lighting",
     "subcategory": "Spotlights",
     "image": "https://zamanlighting.com/wp-content/uploads/2025/08/Dahn6.jpg",
     "gallery": [
-      "https://zamanlighting.com/wp-content/uploads/2025/08/S493fb00bb06749d593cf06a1af6841b9o.jpg_640x640q90.webp",
-      "https://zamanlighting.com/wp-content/uploads/2025/08/S26620c48e2ce49b0a5174d17585425a8H.jpg_640x640q90.webp"
+        "https://zamanlighting.com/wp-content/uploads/2025/08/S493fb00bb06749d593cf06a1af6841b9o.jpg_640x640q90.webp",
+        "https://zamanlighting.com/wp-content/uploads/2025/08/S26620c48e2ce49b0a5174d17585425a8H.jpg_640x640q90.webp"
     ],
     "description": "Enhance your indoor spaces with this Conceal Spot Light. Offering 1–30W power and high efficiency (100–120 lm/W), it provides bright, even lighting with excellent color accuracy (CRI ≥80). Choose from warm, neutral, or cool light (3000K–6500K). Its wide 120° beam angle ensures stylish, functional illumination for any room.",
     "specifications": {
-      "wattage": "1–30W",
-      "powerFactor": "≤0.95",
-      "inputVoltage": "AC 85–265V",
-      "cri": "≥80",
-      "brightness": "100–120 lm/W",
-      "colorTemperature": "3000K, 4000K, 6500K",
-      "beamAngle": "120°"
+        "wattage": "1–30W",
+        "powerFactor": "≤0.95",
+        "inputVoltage": "AC 85–265V",
+        "cri": "≥80",
+        "brightness": "100–120 lm/W",
+        "colorTemperature": "3000K, 4000K, 6500K",
+        "beamAngle": "120°",
+        "application": "Living Room, Bedroom, Office, Commercial Interiors"
     }
   },
   {
@@ -139,7 +142,8 @@
       "cri": "≥80",
       "brightness": "100–120 lm/W",
       "colorTemperature": "3000K, 4000K, 6500K",
-      "beamAngle": "120°"
+      "beamAngle": "120°",
+      "application": "Living Room, Bedroom, Office, Commercial Interiors"
     }
   },
   {
@@ -160,7 +164,9 @@
       "cri": "≥80",
       "lumens": "100–130 lm/W",
       "colorTemperature": "3000K, 4000K, 6500K",
-      "body": "PVC–Aluminium"
+      "body": "PVC–Aluminium",
+      "application": "Factories, Warehouses, Workshops, Commercial Spaces"
+        
     }
   },
   {
@@ -181,7 +187,9 @@
       "cri": "≥80",
       "lumens": "100–130 lm/W",
       "colorTemperature": "2000K, 3000K, 6500K",
-      "type": "COB-SMD"
+      "type": "COB-SMD",
+      "application": "Factories, Warehouses, Workshops, Commercial Spaces"
+
     }
   },
   {
@@ -202,7 +210,9 @@
       "cri": "≥80",
       "brightness": "100–120 lm/W",
       "colorTemperature": "3000K, 4000K, 6500K",
-      "bodyColor": "Black / White"
+      "bodyColor": "Black / White",
+      "application": "Retail Stores, Showrooms, Galleries, Commercial Interiors"
+        
     }
   },
   {
@@ -222,7 +232,9 @@
       "cri": "≥80",
       "lumens": "100–120 lm/W",
       "colorTemperature": "2700K, 3000K, 6500K",
-      "type": "COB–SMD"
+      "type": "COB–SMD",
+      "application": "Gardens, Pathways, Lawns, Landscapes"
+
     }
   },
   {
@@ -242,7 +254,9 @@
       "cri": "≥80",
       "lumens": "100–120 lm/W",
       "colorTemperature": "2700K, 3000K, 6500K",
-      "type": "COB–SMD"
+      "type": "COB–SMD",
+      "application": "Gardens, Pathways, Lawns, Landscapes"
+
     }
   },
   {
@@ -263,7 +277,9 @@
       "cri": "≥80",
       "lumens": "100–120 lm/W",
       "colorOptions": "Single & RGB",
-      "ipRating": "IP65 (water & dust resistant)"
+      "ipRating": "IP65 (water & dust resistant)",
+      "application": "Stairs, Pathways, Walkways, Residential & Commercial Spaces"
+
     }
   },
   {
@@ -283,7 +299,9 @@
       "material": "Metal & Glass/Crystal (depending on model)",
       "lightSource": "LED or Compatible Bulbs",
       "colorFinish": "Gold, Silver, Black, or White",
-      "roomType": "Living Room, Dining Room, Hallway"
+      "roomType": "Living Room, Dining Room, Hallway",
+      "application": "Living Rooms, Dining Rooms, Hotels, Restaurants"
+
     }
   },
   {
@@ -303,7 +321,9 @@
       "material": "Metal & Glass/Crystal (depending on model)",
       "lightSource": "LED or Compatible Bulbs",
       "colorFinish": "Gold, Silver, Black, or White",
-      "roomType": "Living Room, Dining Room, Hallway"
+      "roomType": "Living Room, Dining Room, Hallway",
+      "applications": "Living Rooms, Dining Rooms, Hotels, Restaurants"
+
     }
   },
   {
@@ -324,7 +344,8 @@
       "cri": "≥80",
       "brightness": "100–120 lm/W",
       "colorTemperature": "3000K, 4000K, 6500K",
-      "bodyColor": "Black / White"
+      "bodyColor": "Black / White",
+      "application": "Living Rooms, Dining Rooms, Hotels, Restaurants"
     }
   }
 ]

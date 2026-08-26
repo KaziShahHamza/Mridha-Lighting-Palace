@@ -114,45 +114,22 @@ function ProductDetailsContent({ product }) {
      Specifications
      --------------------------------------------------------- */
 
-  const specifications = [
-    {
-      label: "Wattage",
-      value: product.wattage,
-    },
-    {
-      label: "Voltage",
-      value: product.voltage,
-    },
-    {
-      label: "Color Temperature",
-      value: product.colorTemperature,
-    },
-    {
-      label: "Lumens",
-      value: product.lumens,
-    },
-    {
-      label: "CRI",
-      value: product.cri,
-    },
-    {
-      label: "Dimensions",
-      value: product.dimensions,
-    },
-    {
-      label: "Material",
-      value: product.material,
-    },
-    {
-      label: "Warranty",
-      value: product.warranty,
-    },
-  ].filter(
-    (spec) =>
-      spec.value !== undefined &&
-      spec.value !== null &&
-      String(spec.value).trim() !== ""
-  );
+    const specifications = Object.entries(
+      product.specifications || {}
+    )
+      .filter(
+        ([, value]) =>
+          value !== undefined &&
+          value !== null &&
+          String(value).trim() !== ""
+      )
+      .map(([key, value]) => ({
+        label: key
+          .replace(/([A-Z])/g, " $1")
+          .replace(/^./, (char) => char.toUpperCase()),
+
+        value: String(value),
+      }));
 
   /* ---------------------------------------------------------
      Applications
@@ -289,14 +266,10 @@ function ProductDetailsContent({ product }) {
 
               <div className="product-details-eyebrow">
                 <span></span>
-
                 {product.category}
-
               </div>
 
-              <h1>
-                {product.name}
-              </h1>
+              <h1>{product.name}</h1>
 
               {product.subcategory && (
                 <div className="product-subcategory">
@@ -304,55 +277,46 @@ function ProductDetailsContent({ product }) {
                 </div>
               )}
 
+
+
+              {/* =================================================
+                  SPECIFICATIONS
+                  ================================================= */}
+
+              {specifications.length > 0 && (
+                <div className="product-specifications">
+
+                  <div className="product-section-label">
+                    Technical Specifications
+                  </div>
+
+                  <div className="product-spec-grid">
+                    {specifications.map((spec) => (
+                      <div
+                        className="product-spec"
+                        key={spec.label}
+                      >
+                        <span>{spec.label}</span>
+                        <strong>{spec.value}</strong>
+                      </div>
+                    ))}
+                  </div>
+
+                </div>
+              )}
+
+
               {product.description && (
                 <p className="product-description">
                   {product.description}
                 </p>
               )}
 
-
-              {/* Specifications */}
-
-              {specifications.length > 0 && (
-
-                <div className="product-specifications">
-
-                  <div className="product-section-label">
-                    Specifications
-                  </div>
-
-                  <div className="product-spec-grid">
-
-                    {specifications.map((spec) => (
-
-                      <div
-                        className="product-spec"
-                        key={spec.label}
-                      >
-
-                        <span>
-                          {spec.label}
-                        </span>
-
-                        <strong>
-                          {spec.value}
-                        </strong>
-
-                      </div>
-
-                    ))}
-
-                  </div>
-
-                </div>
-
-              )}
-
-
-              {/* Applications */}
+              {/* =================================================
+                  APPLICATIONS
+                  ================================================= */}
 
               {applications.length > 0 && (
-
                 <div className="product-applications">
 
                   <div className="product-section-label">
@@ -360,27 +324,21 @@ function ProductDetailsContent({ product }) {
                   </div>
 
                   <div className="product-application-list">
-
-                    {applications.map(
-                      (application, index) => (
-
-                        <span
-                          key={`${application}-${index}`}
-                        >
-                          {application}
-                        </span>
-
-                      )
-                    )}
-
+                    {applications.map((application, index) => (
+                      <span
+                        key={`${application}-${index}`}
+                      >
+                        {application}
+                      </span>
+                    ))}
                   </div>
 
                 </div>
-
               )}
 
-
-              {/* CTA */}
+              {/* =================================================
+                  ACTIONS
+                  ================================================= */}
 
               <div className="product-details-actions">
 
@@ -400,11 +358,8 @@ function ProductDetailsContent({ product }) {
                 </Link>
 
               </div>
-
             </div>
-
           </div>
-
         </div>
 
       </section>

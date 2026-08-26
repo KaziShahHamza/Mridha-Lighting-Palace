@@ -293,6 +293,7 @@
   max-width: 580px;
 
   margin: 0 0 3rem;
+  padding-top: 2rem;
 
   color: var(--color-text-light);
 
@@ -424,6 +425,36 @@
   color: var(--color-gold);
 }
 
+/* =========================================================
+   MOBILE SPECIFICATIONS
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .product-spec-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-spec {
+    padding:
+      0.9rem 0;
+  }
+
+  .product-spec:nth-child(even) {
+    padding-left: 0;
+
+    border-left: 0;
+  }
+
+  .product-spec span {
+    font-size: 0.68rem;
+  }
+
+  .product-spec strong {
+    font-size: 0.9rem;
+  }
+
+}
 
 /* =========================================================
    ACTIONS
@@ -881,6 +912,7 @@
   }
 
   .product-description {
+    padding-top: 1.5rem;
     margin-bottom: 2.2rem;
   }
 
