@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom";
-
 import Hero from "../components/Hero";
 import CategoryCard from "../components/CategoryCard";
-import ProductCard from "../components/ProductCard";
+import FeaturedProducts from "../components/FeaturedProducts";
 import SectionHeading from "../components/SectionHeading";
 import ImageSection from "../components/ImageSection";
 import WhyChooseMLP from "../components/WhyChooseMLP";
@@ -10,7 +8,9 @@ import QuoteCTA from "../components/QuoteCTA";
 
 import products from "../data/products.json";
 
+
 function Home() {
+
   const featuredProducts = products.slice(0, 6);
 
   const categories = [
@@ -48,10 +48,16 @@ function Home() {
     },
   ];
 
+
   return (
     <div className="home-page">
 
+      {/* =====================================
+          HERO
+          ===================================== */}
+
       <Hero />
+
 
       {/* =====================================
           PRODUCT CATEGORIES
@@ -67,12 +73,14 @@ function Home() {
           />
 
           <div className="categories-grid">
+
             {categories.map((category) => (
               <CategoryCard
                 key={category.title}
                 {...category}
               />
             ))}
+
           </div>
 
         </div>
@@ -83,36 +91,9 @@ function Home() {
           FEATURED PRODUCTS
           ===================================== */}
 
-      <section className="featured-section">
-        <div className="featured-container">
-
-          <div className="featured-header">
-            <SectionHeading
-              eyebrow="Featured Collection"
-              title="Selected for your space."
-              description="Explore a selection from the MLP lighting collection."
-            />
-
-            <Link
-              to="/products"
-              className="section-view-all"
-            >
-              View All Products
-              <span>↗</span>
-            </Link>
-          </div>
-
-          <div className="products-grid">
-            {featuredProducts.map((product) => (
-              <ProductCard
-                key={product.id}
-                product={product}
-              />
-            ))}
-          </div>
-
-        </div>
-      </section>
+      <FeaturedProducts
+        featuredProducts={featuredProducts}
+      />
 
 
       {/* =====================================
@@ -138,5 +119,6 @@ function Home() {
     </div>
   );
 }
+
 
 export default Home;
