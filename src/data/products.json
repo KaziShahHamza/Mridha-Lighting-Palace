@@ -1,188 +1,330 @@
 [
   {
-    "id": "conceal-panel",
-    "name": "Conceal Panel",
-    "category": "Indoor Lighting",
-    "subcategory": "LED Panel Lights",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb-ZabNZuREnhHsmQVsVjtIItFJHHFg_zU-LdbOIu_Cg&s=10",
-    "description": "Slim recessed LED panel lighting designed for clean, modern ceiling applications.",
+    "id": "aluminium-golden-sockets",
+    "name": "Aluminium Golden Sockets",
+    "category": "Switch & Socket",
+    "subcategory": "Glass Series Switches & Sockets",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/13A-3Pin-Multi-Socket-With-Switch.png",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/13A-5-Pin-Multi-Socket-With-Switch.png",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/13A-Universal-Socket-With-USB.png"
+    ],
+    "description": "Upgrade your interiors with Glass Aluminium Golden Switches & Sockets, combining durability with premium design. Featuring a golden finish and glass touch style, these switches bring elegance to homes, offices, and hotels. Built with high-quality materials, they ensure safety, long-lasting performance, and modern style in every connection.",
     "specifications": {
-      "wattage": "40W / 48W / 60W / 72W",
-      "application": "Residential, Office, Commercial"
+      "material": "Glass + Aluminium (Golden Finish)",
+      "design": "Premium, Modern & Durable",
+      "type": "Modular Switches & Power Sockets",
+      "application": "Home, Office, Hotels, Showrooms",
+      "colorFinish": "Golden with Glass Touch Style",
+      "safety": "High-quality, long-lasting, secure connections"
     }
   },
   {
-    "id": "cylinder-spot-mztd",
-    "name": "Cylinder Spot MZTD",
+    "id": "aluminium-golden-switches",
+    "name": "Aluminium Golden Switches",
+    "category": "Switch & Socket",
+    "subcategory": "Glass Series Switches & Sockets",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/Image-04-1.png",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/Image-05-1-1.png",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/1G-1-Way-Switch-1G-2-Way-Switch.png"
+    ],
+    "description": "Upgrade your interiors with Glass Aluminium Golden Switches & Sockets, combining durability with premium design. Featuring a golden finish and glass touch style, these switches bring elegance to homes, offices, and hotels. Built with high-quality materials, they ensure safety, long-lasting performance, and modern style in every connection.",
+    "specifications": {
+      "material": "Glass + Aluminium (Golden Finish)",
+      "design": "Premium, Modern & Durable",
+      "type": "Modular Switches & Power Sockets",
+      "application": "Home, Office, Hotels, Showrooms",
+      "colorFinish": "Golden with Glass Touch Style",
+      "safety": "High-quality, long-lasting, secure connections"
+    }
+  },
+  {
+    "id": "crystal-white-sockets",
+    "name": "Crystal White Sockets",
+    "category": "Switch & Socket",
+    "subcategory": "Crystal Series Switches & Sockets",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/13A-5-Pin-Multi-Socket-with-Switch-1.jpg",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/Image-08-1-e1751111350999.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/Image-09-1-e1751111423531.jpg"
+    ],
+    "description": "Upgrade your interiors with Crystal Aluminium White Switches & Sockets, combining durability with premium design. Featuring a golden finish and glass touch style, these switches bring elegance to homes, offices, and hotels. Built with high-quality materials, they ensure safety, long-lasting performance, and modern style in every connection.",
+    "specifications": {
+      "material": "Crystal + Aluminium (White Finish)",
+      "design": "Premium, Modern & Durable",
+      "type": "Modular Switches & Power Sockets",
+      "application": "Home, Office, Hotels, Showrooms",
+      "colorFinish": "White with Crystal Touch Style",
+      "safety": "High-quality, long-lasting, secure connections"
+    }
+  },
+  {
+    "id": "crystal-white-switches",
+    "name": "Crystal White Switches",
+    "category": "Switch & Socket",
+    "subcategory": "Crystal Series Switches & Sockets",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/4G-1-Way-Switch-1.jpg",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/2G-1-Way-Switch-1.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/Image-03-1-e1751111038447.jpg"
+    ],
+    "description": "Upgrade your interiors with Crystal Aluminium White Switches & Sockets, combining durability with premium design. Featuring a golden finish and glass touch style, these switches bring elegance to homes, offices, and hotels. Built with high-quality materials, they ensure safety, long-lasting performance, and modern style in every connection.",
+    "specifications": {
+      "material": "Crystal + Aluminium (White Finish)",
+      "design": "Premium, Modern & Durable",
+      "type": "Modular Switches & Power Sockets",
+      "application": "Home, Office, Hotels, Showrooms",
+      "colorFinish": "White with Crystal Touch Style",
+      "safety": "High-quality, long-lasting, secure connections"
+    }
+  },
+  {
+    "id": "553-concealed-spotlight",
+    "name": "553 Concealed Spotlight",
     "category": "Indoor Lighting",
     "subcategory": "Spotlights",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzAPBPTOoA2XEwlB6k5TGhk39SGuZ78yZ-id2pUQGQkg&s=10",
-    "description": "Compact cylinder-style spotlight designed for focused architectural and display lighting.",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/3w-striker-gamma-dob-ready-cw-500x500-1.webp",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/3f355ef6-bcf6-49a0-aee4-c763943fa4cd.679690bfa6ce4650a8db3ecb678563bd.webp",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/51XuirDRKbL._UF8941000_QL80_.jpg"
+    ],
+    "description": "Enhance your indoor spaces with this Conceal Spot Light. Offering 1–30W power and high efficiency (100–120 lm/W), it provides bright, even lighting with excellent color accuracy (CRI ≥80). Choose from warm, neutral, or cool light (3000K–6500K). Its wide 120° beam angle ensures stylish, functional illumination for any room.",
     "specifications": {
-      "wattage": "15W / 24W",
-      "application": "Retail, Gallery, Residential"
-    }
-  },
-  {
-    "id": "h-802",
-    "name": "H-802",
-    "category": "Commercial Lighting",
-    "subcategory": "Commercial & Industrial",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM46dIrdEJmJSYt7Pcn9ISoFK5mXZqeXaPFE3TgQtYVQ&s=10",
-    "description": "High-output commercial lighting fixture suitable for demanding indoor applications.",
-    "specifications": {
-      "wattage": "35W / 40W / 50W",
-      "application": "Commercial, Office, Retail"
-    }
-  },
-  {
-    "id": "h-309",
-    "name": "H-309",
-    "category": "Commercial Lighting",
-    "subcategory": "Commercial & Industrial",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXyMccyGyna5CxV6PY2LiN8_RgBfu1Z7Tn4NyGYotE_w&s=10",
-    "description": "Versatile commercial lighting fixture designed for efficient general illumination.",
-    "specifications": {
-      "wattage": "10W / 20W / 30W",
-      "application": "Commercial, Office, Retail"
-    }
-  },
-  {
-    "id": "sport-1014",
-    "name": "Sport 1014 Conceal Spot Light",
-    "category": "Indoor Lighting",
-    "subcategory": "Spotlights",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVinCDBK4MmsmFXifvvYwGCShPXVvZ_muF57UH68yo4w&s=10",
-    "description": "Concealed spotlight designed for focused illumination and modern interior spaces.",
-    "specifications": {
-      "wattage": "10W / 20W",
-      "application": "Residential, Retail, Interior"
-    }
-  },
-  {
-    "id": "magnetic-linear-light",
-    "name": "Magnetic Linear Light",
-    "category": "Indoor Lighting",
-    "subcategory": "Linear Lights",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5oDtb3s594axIfP4kCzSsCB5sWTAw0FPr_TUJVUE1g&s=10",
-    "description": "Modern linear lighting solution for contemporary architectural interiors.",
-    "specifications": {
-      "type": "Magnetic Linear System",
-      "application": "Residential, Commercial, Retail"
-    }
-  },
-  {
-    "id": "led-t5",
-    "name": "LED T5",
-    "category": "Commercial Lighting",
-    "subcategory": "Linear Lighting",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDTIwbwAoQgSEmHOi6pfrv6UfQ2zczGAmB_PhrMeAZoQ&s=10",
-    "description": "Efficient linear LED tube fixture suitable for commercial and industrial environments.",
-    "specifications": {
-      "wattage": "4W–30W",
+      "wattage": "1–30W",
+      "powerFactor": "≤0.95",
       "inputVoltage": "AC 85–265V",
       "cri": "≥80",
-      "cct": "3000K / 4000K / 6500K",
-      "body": "PVC-Aluminium"
+      "brightness": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "beamAngle": "120°"
     }
   },
   {
-    "id": "solar-street-light",
-    "name": "Solar Street Light With Panel",
-    "category": "Outdoor Lighting",
-    "subcategory": "Solar Street Lights",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSxYmGh8KFq9XQACAPJl0U7R6--NEYNeQfEiqz8vEDnA&s=10",
-    "description": "Solar-powered outdoor lighting solution designed for streets, pathways and open areas.",
+    "id": "6048-concealed-spotlight",
+    "name": "6048 Concealed Spotlight",
+    "category": "Indoor Lighting",
+    "subcategory": "Spotlights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/Dahn6.jpg",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/S493fb00bb06749d593cf06a1af6841b9o.jpg_640x640q90.webp",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/S26620c48e2ce49b0a5174d17585425a8H.jpg_640x640q90.webp"
+    ],
+    "description": "Enhance your indoor spaces with this Conceal Spot Light. Offering 1–30W power and high efficiency (100–120 lm/W), it provides bright, even lighting with excellent color accuracy (CRI ≥80). Choose from warm, neutral, or cool light (3000K–6500K). Its wide 120° beam angle ensures stylish, functional illumination for any room.",
     "specifications": {
-      "type": "Solar LED Street Light",
-      "application": "Roads, Streets, Outdoor Areas"
+      "wattage": "1–30W",
+      "powerFactor": "≤0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "brightness": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "beamAngle": "120°"
     }
   },
   {
-    "id": "led-flood-louver",
-    "name": "Louver LED Flood Light",
-    "category": "Outdoor Lighting",
-    "subcategory": "Flood Lights",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE7rpsF65hhDf2EuEJxTLW12mQgOTY60LK7wxLDCMgsg&s=10",
-    "description": "High-output LED flood light designed for broad outdoor illumination.",
+    "id": "925-concealed-spotlight",
+    "name": "925 Concealed Spotlight",
+    "category": "Indoor Lighting",
+    "subcategory": "Spotlights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/ozone_18w_White_Led_Downlight_2_x32g-ke.jpg",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/51EOyxVZG0L._UF8941000_QL80_.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/51Qj106mEdL.jpg"
+    ],
+    "description": "Enhance your indoor spaces with this Conceal Spot Light. Offering 1–30W power and high efficiency (100–120 lm/W), it provides bright, even lighting with excellent color accuracy (CRI ≥80). Choose from warm, neutral, or cool light (3000K–6500K). Its wide 120° beam angle ensures stylish, functional illumination for any room.",
     "specifications": {
-      "wattage": "150W / 200W / 300W / 400W / 500W",
-      "application": "Outdoor, Industrial, Commercial"
+      "wattage": "1–30W",
+      "powerFactor": "≤0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "brightness": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "beamAngle": "120°"
     }
   },
   {
-    "id": "d01-street-light",
-    "name": "D01 LED Street Light",
-    "category": "Outdoor Lighting",
-    "subcategory": "Street Lights",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB134xXmATsLt05mWn497bVBxYN2oGFo7H77eyT7D8Lw&s=10",
-    "description": "Outdoor LED street lighting fixture designed for road and area illumination.",
-    "specifications": {
-      "wattage": "50W–200W",
-      "application": "Roads, Streets, Public Areas"
-    }
-  },
-  {
-    "id": "tgd-48w",
-    "name": "TGD-48W-WW Garden Light",
-    "category": "Outdoor Lighting",
-    "subcategory": "Garden Lights",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9OvYnH9wR3JQVtcF6GTEgzntDQG58IKe3h6pFVNjXcw&s=10",
-    "description": "Decorative outdoor garden fixture designed to add functional and ambient illumination.",
-    "specifications": {
-      "wattage": "48W",
-      "application": "Garden, Landscape, Outdoor"
-    }
-  },
-  {
-    "id": "jg-27",
-    "name": "JG-27 Garden Light",
-    "category": "Outdoor Lighting",
-    "subcategory": "Garden Lights",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-JSJazmw-hmqq08OfCBVdVRNmpgYGFMLh5EEp5Bmf_A&s=10",
-    "description": "Contemporary garden lighting fixture suitable for landscape and outdoor environments.",
-    "specifications": {
-      "wattage": "10W / 20W / 30W",
-      "application": "Garden, Landscape, Outdoor"
-    }
-  },
-  {
-    "id": "gg-030g1",
-    "name": "GG030G1 LED Garden Bollard",
-    "category": "Outdoor Lighting",
-    "subcategory": "Garden Bollard Lights",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6eU1eQ0y0h4vVDxsys0F6E_LUCWudoIxhJXW4IIdqgQ&s=10",
-    "description": "Modern bollard-style fixture designed for pathways, gardens and landscape lighting.",
-    "specifications": {
-      "light": "Warm White + Blue",
-      "application": "Garden, Pathway, Landscape"
-    }
-  },
-  {
-    "id": "h-802-industrial",
-    "name": "UFO High Bay Light",
+    "id": "aluminium-shade-tube",
+    "name": "Aluminium Shade with Tube",
     "category": "Industrial Lighting",
-    "subcategory": "LED High Bay Lights",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZq26ON7lbbcSjcrCciNLHfjpEIOEguLfgsoGg5lHS7w&s=10",
-    "description": "Industrial high bay lighting solution designed for high-ceiling commercial and industrial spaces.",
-    
+    "subcategory": "Industrial Tube Fixtures & Reflector Shades",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/09/484225179_1135588551701529_2027830579975609061_n.jpg",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/09/482344746_1135588288368222_8327543545098772706_n.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/09/484474854_1135588531701531_3025309107272308707_n.jpg"
+    ],
+    "description": "This Industrial Shade & Tube Fixture is designed for efficient, long-lasting performance in commercial and industrial spaces. With 4–30W power options, high lumen output, and durable PVC–Aluminium construction, it provides bright, reliable lighting. Available in multiple color temperatures, it ensures energy savings while maintaining excellent visibility and consistent illumination.",
     "specifications": {
-      "wattage": "50W–200W",
-      "type": "UFO High Bay",
-      "application": "Warehouse, Factory, Industrial"
+      "wattage": "4–30W",
+      "powerFactor": "≥0.60–0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "lumens": "100–130 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "body": "PVC–Aluminium"
     }
   },
   {
-    "id": "crystal-white-switch",
-    "name": "Crystal White Switch",
-    "category": "Switch & Socket",
-    "subcategory": "Switches & Sockets",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKfoO17hoRtBBF1SPCI5KLDQdUDjvt_zlSMtFuLmQy_A&s=10",
-    "description": "Clean, contemporary switch design suitable for modern residential and commercial interiors.",
+    "id": "dust-proof-shade-4-2",
+    "name": "Dust Proof Shade 4′–2′",
+    "category": "Industrial Lighting",
+    "subcategory": "LED High Bay & Industrial Lights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/09/611YUlj1y6L._UF8941000_QL80_.jpg",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/09/61kwQSfh1JL._UF8941000_QL80_.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/09/41WLFwG2oEL.jpg"
+    ],
+    "description": "Our Industrial High Bay Light delivers powerful illumination for factories, warehouses, and large indoor spaces. With wattage options from 50W to 200W, high efficiency of 100–130lm/w, and versatile CCT settings, it ensures reliable and energy-saving performance. COB-SMD design provides durability and bright, consistent lighting for demanding industrial environments.",
     "specifications": {
-      "type": "Electrical Switch",
-      "finish": "Crystal White",
-      "application": "Residential, Commercial"
+      "wattage": "50–200W",
+      "powerFactor": "≤0.95–1",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "lumens": "100–130 lm/W",
+      "colorTemperature": "2000K, 3000K, 6500K",
+      "type": "COB-SMD"
+    }
+  },
+  {
+    "id": "h309-led-track-spot",
+    "name": "H 309 LED Track Spot",
+    "category": "Commercial Lighting",
+    "subcategory": "LED Track & Focus Lights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/led-track-light-500x500-1.webp",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/71qNdf3kOZL._UF10001000_QL80_.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/717y2A9IlVL._UF350350_QL80_.jpg"
+    ],
+    "description": "Illuminate commercial and industrial spaces with this LED Track Spot Light. Offering 7–50W power and high efficiency (100–120 lm/W), it delivers bright, focused light with excellent color accuracy (CRI ≥80). Available in sleek black or white finishes and warm, neutral, or cool tones (3000K–6500K) for versatile applications.",
+    "specifications": {
+      "wattage": "7–50W",
+      "powerFactor": "≥0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "brightness": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "bodyColor": "Black / White"
+    }
+  },
+  {
+    "id": "garden-light-25-60cm",
+    "name": "Decorative Garden Light 25–60cm",
+    "category": "Outdoor Lighting",
+    "subcategory": "Garden Lights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/09/Image-02-7-e1748431076545.webp",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/09/s-l1200.jpg"
+    ],
+    "description": "Light up your garden with our energy-efficient Garden Light, designed with COB–SMD technology for consistent brightness. With wattage options from 3W to 72W, high CRI, and multiple color temperatures, it creates the perfect outdoor ambiance. Built for durability, it ensures reliable, stylish, and eco-friendly illumination for pathways, lawns, and landscapes.",
+    "specifications": {
+      "wattage": "3–72W",
+      "powerFactor": "≤0.6–0.90",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "lumens": "100–120 lm/W",
+      "colorTemperature": "2700K, 3000K, 6500K",
+      "type": "COB–SMD"
+    }
+  },
+  {
+    "id": "6703-garden-light",
+    "name": "6703 Garden Light",
+    "category": "Outdoor Lighting",
+    "subcategory": "Garden Lights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/09/Image-05-6-e1748430864922.webp",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/09/images5.jpeg"
+    ],
+    "description": "Light up your garden with our energy-efficient Garden Light, designed with COB–SMD technology for consistent brightness. With wattage options from 3W to 72W, high CRI, and multiple color temperatures, it creates the perfect outdoor ambiance. Built for durability, it ensures reliable, stylish, and eco-friendly illumination for pathways, lawns, and landscapes.",
+    "specifications": {
+      "wattage": "3–72W",
+      "powerFactor": "≤0.6–0.90",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "lumens": "100–120 lm/W",
+      "colorTemperature": "2700K, 3000K, 6500K",
+      "type": "COB–SMD"
+    }
+  },
+  {
+    "id": "8088-stair-light",
+    "name": "8088 Stair & Floor Light",
+    "category": "Outdoor Lighting",
+    "subcategory": "LED Street & Stair Lights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/09/61L-i0D9jvL._UL500_.jpg",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/09/61CaPxra7XL-600x600.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/09/Image-03-13-e1748435682117.webp"
+    ],
+    "description": "Illuminate pathways and stairs with our durable Floor Stair Light. Designed with 1–10W power, high efficiency, and IP65 protection, it’s ideal for both indoor and outdoor use. Available in single or RGB colors, it enhances safety while adding a stylish accent to residential, commercial, and landscape lighting projects.",
+    "specifications": {
+      "wattage": "1–10W",
+      "powerFactor": "≤0.60–0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "lumens": "100–120 lm/W",
+      "colorOptions": "Single & RGB",
+      "ipRating": "IP65 (water & dust resistant)"
+    }
+  },
+  {
+    "id": "modern-chandelier",
+    "name": "Modern Chandelier",
+    "category": "Decorative Lighting",
+    "subcategory": "Chandeliers",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/Sb1e280aaf1f34257ac3ff61ae787699cj.webp",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/Image-01-9-e1748434099993.webp",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/3_bf0518e1-0f3a-40cc-ad41-0d171e4399c1.webp"
+    ],
+    "description": "Elevate your interiors with this elegant chandelier, designed to add style and sophistication to any space. Perfect for living rooms, dining areas, or halls, it provides bright, warm illumination while enhancing décor. Available in modern or classic designs with premium finishes, this chandelier combines beauty, function, and long-lasting LED efficiency.",
+    "specifications": {
+      "style": "Modern / Classic (depending on model)",
+      "mountType": "Ceiling Mounted",
+      "material": "Metal & Glass/Crystal (depending on model)",
+      "lightSource": "LED or Compatible Bulbs",
+      "colorFinish": "Gold, Silver, Black, or White",
+      "roomType": "Living Room, Dining Room, Hallway"
+    }
+  },
+  {
+    "id": "ceiling-chandelier",
+    "name": "Ceiling Chandelier",
+    "category": "Decorative Lighting",
+    "subcategory": "Chandeliers",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/Image-02-9-e1748434221799.webp",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/600x600.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/469940168_1632614444344507_1321810611234179433_n-600x600.jpg"
+    ],
+    "description": "Elevate your interiors with this elegant chandelier, designed to add style and sophistication to any space. Perfect for living rooms, dining areas, or halls, it provides bright, warm illumination while enhancing décor. Available in modern or classic designs with premium finishes, this chandelier combines beauty, function, and long-lasting LED efficiency.",
+    "specifications": {
+      "style": "Modern / Classic (depending on model)",
+      "mountType": "Ceiling Mounted",
+      "material": "Metal & Glass/Crystal (depending on model)",
+      "lightSource": "LED or Compatible Bulbs",
+      "colorFinish": "Gold, Silver, Black, or White",
+      "roomType": "Living Room, Dining Room, Hallway"
+    }
+  },
+  {
+    "id": "hanging-led-e29",
+    "name": "Hanging LED E29",
+    "category": "Decorative Lighting",
+    "subcategory": "Modern Hanging LED Lights",
+    "image": "https://zamanlighting.com/wp-content/uploads/2025/08/310262_0.jpg",
+    "gallery": [
+      "https://zamanlighting.com/wp-content/uploads/2025/08/64ccfd63ef2c4f05256b64f0-modern-creative-integrated-led-dimmable.jpg",
+      "https://zamanlighting.com/wp-content/uploads/2025/08/51hnYdHYBuL._UF8941000_QL80_.jpg"
+    ],
+    "description": "Add a modern touch to your interiors with this Hanging LED Light, offering 5–30W power and high brightness (100–120 lm/W). With excellent color accuracy (CRI ≥80) and adjustable tones from warm to cool (3000K–6500K), it suits dining rooms, living areas, or cafes. Available in elegant black or white finishes.",
+    "specifications": {
+      "wattage": "5–30W",
+      "powerFactor": "≥0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "brightness": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "bodyColor": "Black / White"
     }
   }
 ]
