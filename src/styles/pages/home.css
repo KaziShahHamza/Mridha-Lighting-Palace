@@ -1,0 +1,185 @@
+
+
+/* =========================================
+   HOMEPAGE — RESPONSIVE
+   ========================================= */
+
+@media (max-width: 1000px) {
+  .categories-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .space-section {
+    grid-template-columns: 1fr;
+  }
+
+  .space-image {
+    min-height: 550px;
+  }
+
+  .space-content {
+    padding: 5rem 3rem;
+  }
+
+  .why-container {
+    grid-template-columns: 1fr;
+
+    gap: 4rem;
+  }
+}
+
+
+@media (max-width: 760px) {
+  .categories-section,
+  .featured-section {
+    padding: 5rem 0;
+  }
+
+  .categories-container,
+  .featured-container {
+    width: min(
+      calc(100% - 2rem),
+      var(--container-width)
+    );
+  }
+
+  .section-heading {
+    margin-bottom: 2.5rem;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(2.4rem, 10vw, 3.5rem);
+  }
+
+  .categories-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-card {
+    min-height: 420px;
+  }
+
+  .featured-header {
+    display: block;
+  }
+
+  .section-view-all {
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .product-card-image-wrap {
+    aspect-ratio: 1 / 1;
+  }
+
+  .space-image {
+    min-height: 450px;
+  }
+
+  .space-content {
+    padding: 4rem 1.5rem;
+  }
+
+  .space-content h2 {
+    font-size: clamp(2.6rem, 11vw, 4rem);
+  }
+
+  .space-list {
+    grid-template-columns: 1fr;
+  }
+
+  .why-section {
+    padding: 5.5rem 0;
+  }
+
+  .why-container {
+    width: min(
+      calc(100% - 2rem),
+      var(--container-width)
+    );
+
+    gap: 3rem;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-item,
+  .why-item:nth-child(even) {
+    padding: 1.5rem 0;
+
+    border-left: 0;
+  }
+
+  .quote-section {
+    min-height: 560px;
+  }
+
+  .quote-content {
+    width: min(
+      calc(100% - 2rem),
+      var(--container-width)
+    );
+  }
+
+  .quote-content h2 {
+    font-size: clamp(3rem, 14vw, 5rem);
+  }
+
+  .quote-content > p {
+    font-size: 0.86rem;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .category-card {
+    min-height: 380px;
+  }
+
+  .category-card-content {
+    right: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .category-card h3 {
+    font-size: 1.7rem;
+  }
+
+  .space-image {
+    min-height: 380px;
+  }
+
+  .why-intro h2 {
+    font-size: 3rem;
+  }
+
+  .quote-section {
+    min-height: 500px;
+  }
+}
+
+
+/* =========================================
+   REDUCED MOTION
+   ========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .category-card-image,
+  .product-card-image,
+  .quote-background::before {
+    animation: none;
+    transition: none;
+  }
+}

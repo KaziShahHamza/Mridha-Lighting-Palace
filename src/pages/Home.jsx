@@ -8,6 +8,8 @@ import QuoteCTA from "../components/QuoteCTA";
 
 import products from "../data/products.json";
 
+import "../styles/pages/home.css";
+
 
 function Home() {
 
