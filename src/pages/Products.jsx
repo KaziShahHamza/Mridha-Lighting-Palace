@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
 import products from "../data/products.json";
@@ -7,6 +7,9 @@ import "../styles/pages/products.css";
 function Products() {
   const [searchTerm, setSearchTerm] = useState("");
   const [activeCategory, setActiveCategory] = useState("All");
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const productsPerPage = 12;
 
   /*
    * Create category list automatically from products.json.
@@ -25,30 +28,46 @@ function Products() {
    * 1. Selected category
    * 2. Search term
    */
-  const filteredProducts = useMemo(() => {
-    const search = searchTerm.trim().toLowerCase();
+    const filteredProducts = useMemo(() => {
+      const search = searchTerm.trim().toLowerCase();
 
-    return products.filter((product) => {
-      const matchesCategory =
-        activeCategory ===  "All" ||
-        product.category === activeCategory;
+      return products.filter((product) => {
+        const matchesCategory =
+          activeCategory === "All" ||
+          product.category === activeCategory;
 
-      const searchableText = [
-        product.name,
-        product.category,
-        product.subcategory,
-        product.description,
-      ]
-        .filter(Boolean)
-        .join(" ")
-        .toLowerCase();
+        const searchableText = [
+          product.name,
+          product.category,
+          product.subcategory,
+          product.description,
+        ]
+          .filter(Boolean)
+          .join(" ")
+          .toLowerCase();
 
-      const matchesSearch =
-        search === "" || searchableText.includes(search);
+        const matchesSearch =
+          search === "" || searchableText.includes(search);
 
-      return matchesCategory && matchesSearch;
-    });
-  }, [activeCategory, searchTerm]);
+        return matchesCategory && matchesSearch;
+      });
+    }, [activeCategory, searchTerm]);
+
+    useEffect(() => {
+      setCurrentPage(1);
+    }, [searchTerm, activeCategory]);
+
+    const totalPages = Math.ceil(
+      filteredProducts.length / productsPerPage
+    );
+
+    const startIndex =
+      (currentPage - 1) * productsPerPage;
+
+    const paginatedProducts = filteredProducts.slice(
+      startIndex,
+      startIndex + productsPerPage
+    );
 
   return (
     <main className="products-page">
@@ -227,21 +246,65 @@ function Products() {
               ================================================= */}
 
           {filteredProducts.length > 0 ? (
+            <>
+              <div className="products-grid">
 
-            <div className="products-grid">
+                {paginatedProducts.map((product, index) => (
 
-              {filteredProducts.map((product, index) => (
+                  <ProductCard
+                    key={product.id || product.name}
+                    product={product}
+                    index={index}
+                  />
 
-                <ProductCard
-                  key={product.id || product.name}
-                  product={product}
-                  index={index}
-                />
+                ))}
 
-              ))}
+              </div>
 
-            </div>
+              {totalPages > 1 && (
+                <div className="products-pagination">
 
+                <button
+                  type="button"
+                  disabled={currentPage === 1}
+                  onClick={() =>
+                    setCurrentPage((page) => page - 1)
+                  }
+                >
+                  ← Previous
+                </button>
+
+                <div className="products-page-numbers">
+                  {Array.from(
+                    { length: totalPages },
+                    (_, index) => index + 1
+                  ).map((page) => (
+                    <button
+                      key={page}
+                      type="button"
+                      className={
+                        currentPage === page ? "active" : ""
+                      }
+                      onClick={() => setCurrentPage(page)}
+                    >
+                      {page}
+                    </button>
+                  ))}
+                </div>
+
+                <button
+                  type="button"
+                  disabled={currentPage === totalPages}
+                  onClick={() =>
+                    setCurrentPage((page) => page + 1)
+                  }
+                >
+                  Next →
+                </button>
+
+                </div>
+              )}
+            </>
           ) : (
 
             /* =================================================
@@ -345,6 +408,9 @@ function ProductCard({ product, index }) {
 
       <div className="product-card-image">
 
+        <Link
+          to={`/products/${product.id}`}
+        >
         <img
           src={
             product.image ||
@@ -363,9 +429,10 @@ function ProductCard({ product, index }) {
         <Link
           to={`/products/${product.id}`}
           className="product-card-view"
-        >
+          >
           View Product
           <span>↗</span>
+        </Link>
         </Link>
 
       </div>
