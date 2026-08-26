@@ -104,6 +104,208 @@
   transform-origin: left;
 }
 
+/* =========================================
+   PRODUCTS DROPDOWN
+   ========================================= */
+
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-products-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.nav-dropdown-icon {
+  display: inline-block;
+
+  font-size: 0.65rem;
+
+  color: rgba(255, 255, 255, 0.55);
+
+  transition:
+    transform var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.nav-dropdown:hover .nav-dropdown-icon {
+  color: var(--color-gold);
+
+  transform: rotate(180deg);
+}
+
+
+/* =========================================
+   DROPDOWN PANEL
+   ========================================= */
+
+.nav-dropdown-menu {
+  position: absolute;
+
+  top: calc(100% + 17px);
+  left: 50%;
+
+  width: 285px;
+
+  padding: 1rem;
+
+  background:
+    rgba(23, 23, 23, 0.98);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.1);
+
+  box-shadow:
+    0 18px 45px
+    rgba(0, 0, 0, 0.25);
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform:
+    translate(-50%, 10px);
+
+  transition:
+    opacity var(--transition-fast),
+    visibility var(--transition-fast),
+    transform var(--transition-fast);
+
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+
+/*
+ * Small invisible bridge between Products
+ * and dropdown so the menu doesn't disappear
+ * while moving the mouse downward.
+ */
+
+.nav-dropdown-menu::before {
+  content: "";
+
+  position: absolute;
+
+  top: -18px;
+  left: 0;
+
+  width: 100%;
+  height: 18px;
+}
+
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+
+  transform:
+    translate(-50%, 0);
+}
+
+
+/* =========================================
+   DROPDOWN HEADING
+   ========================================= */
+
+.nav-dropdown-heading {
+  padding:
+    0.5rem 0.7rem
+    0.9rem;
+
+  color: var(--color-white);
+
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  line-height: 1.4;
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.08);
+}
+
+.nav-dropdown-heading span {
+  display: block;
+
+  margin-bottom: 0.3rem;
+
+  color: var(--color-gold);
+
+  font-size: 0.5rem;
+  font-weight: 600;
+
+  letter-spacing: 0.16em;
+
+  text-transform: uppercase;
+}
+
+
+/* =========================================
+   DROPDOWN ITEMS
+   ========================================= */
+
+.nav-dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 1rem;
+
+  padding:
+    0.75rem 0.7rem;
+
+  color:
+    rgba(255, 255, 255, 0.68);
+
+  font-size: 0.68rem;
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.055);
+
+  transition:
+    color var(--transition-fast),
+    background var(--transition-fast),
+    padding-left var(--transition-fast);
+}
+
+.nav-dropdown-item:last-child {
+  border-bottom: 0;
+}
+
+.nav-dropdown-item:hover {
+  padding-left: 0.95rem;
+
+  background:
+    rgba(255, 255, 255, 0.045);
+
+  color: var(--color-white);
+}
+
+.nav-dropdown-arrow {
+  color: var(--color-gold);
+
+  font-size: 0.75rem;
+
+  opacity: 0;
+
+  transform:
+    translate(-4px, 4px);
+
+  transition:
+    opacity var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.nav-dropdown-item:hover .nav-dropdown-arrow {
+  opacity: 1;
+
+  transform:
+    translate(0, 0);
+}
 
 /* =========================================
    QUOTE BUTTON
@@ -180,6 +382,165 @@
 
 .mobile-menu-button.active span:nth-child(3) {
   transform: translateY(-6px) rotate(-45deg);
+}
+
+
+
+/* =========================================
+   MOBILE PRODUCTS DROPDOWN
+   ========================================= */
+
+.mobile-products {
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.08);
+}
+
+.mobile-products-toggle {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding:
+    1.15rem 0;
+
+  border: 0;
+
+  background: transparent;
+
+  color:
+    rgba(255, 255, 255, 0.78);
+
+  cursor: pointer;
+
+  font-family: inherit;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  text-align: left;
+
+  transition:
+    color var(--transition-fast);
+}
+
+.mobile-products-toggle:hover {
+  color: var(--color-white);
+}
+
+.mobile-products-toggle-icon {
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.15);
+
+  color: var(--color-gold);
+
+  font-size: 1rem;
+
+  transition:
+    transform var(--transition-normal),
+    background var(--transition-fast);
+}
+
+.mobile-products.open
+.mobile-products-toggle-icon {
+  transform: rotate(45deg);
+
+  background:
+    rgba(181, 138, 53, 0.1);
+}
+
+
+/* =========================================
+   MOBILE CATEGORY LIST
+   ========================================= */
+
+.mobile-products-submenu {
+  max-height: 0;
+
+  overflow: hidden;
+
+  opacity: 0;
+
+  transition:
+    max-height 450ms
+    cubic-bezier(
+      0.22,
+      1,
+      0.36,
+      1
+    ),
+    opacity var(--transition-normal);
+}
+
+.mobile-products.open
+.mobile-products-submenu {
+  max-height: 500px;
+
+  opacity: 1;
+
+  padding-bottom: 0.7rem;
+}
+
+.mobile-product-category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding:
+    0.75rem
+    0.7rem;
+
+  color:
+    rgba(255, 255, 255, 0.52);
+
+  font-size: 0.72rem;
+
+  border-left:
+    1px solid
+    rgba(255, 255, 255, 0.1);
+
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    padding-left var(--transition-fast);
+}
+
+.mobile-product-category:hover {
+  padding-left: 1rem;
+
+  border-left-color:
+    var(--color-gold);
+
+  color: var(--color-white);
+}
+
+.mobile-product-category span:last-child {
+  color: var(--color-gold);
+
+  opacity: 0;
+
+  transition:
+    opacity var(--transition-fast);
+}
+
+.mobile-product-category:hover span:last-child {
+  opacity: 1;
+}
+
+.mobile-product-category.all-products {
+  color: var(--color-gold);
+
+  font-weight: 600;
 }
 
 

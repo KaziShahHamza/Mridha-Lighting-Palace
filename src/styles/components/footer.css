@@ -154,6 +154,36 @@
   color: rgba(255, 255, 255, 0.68);
 }
 
+/* =========================================
+   CLICKABLE CONTACT INFORMATION
+   ========================================= */
+
+.footer-contact li a {
+  display: block;
+
+  color: rgba(255, 255, 255, 0.72);
+
+  line-height: 1.6;
+
+  transition:
+    color var(--transition-fast);
+}
+
+.footer-contact li a:hover {
+  color: var(--color-gold);
+}
+
+
+/* =========================================
+   DISABLED SOCIAL LINK
+   ========================================= */
+
+.footer-social-disabled {
+  color: rgba(255, 255, 255, 0.35);
+
+  cursor: default;
+}
+
 
 /* =========================================
    FOOTER BOTTOM

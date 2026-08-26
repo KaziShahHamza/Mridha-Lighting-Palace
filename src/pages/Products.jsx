@@ -1,12 +1,15 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 
 import products from "../data/products.json";
 import "../styles/pages/products.css";
 
 function Products() {
+  const [searchParams] = useSearchParams();
+  const categoryFromUrl = searchParams.get("category");
+
   const [searchTerm, setSearchTerm] = useState("");
-  const [activeCategory, setActiveCategory] = useState("All");
+  const [activeCategory, setActiveCategory] = useState( categoryFromUrl || "All");
   const [currentPage, setCurrentPage] = useState(1);
 
   const productsPerPage = 12;
@@ -56,6 +59,10 @@ function Products() {
     useEffect(() => {
       setCurrentPage(1);
     }, [searchTerm, activeCategory]);
+
+    useEffect(() => {
+      setActiveCategory(categoryFromUrl || "All");
+    }, [categoryFromUrl]);
 
     const totalPages = Math.ceil(
       filteredProducts.length / productsPerPage
