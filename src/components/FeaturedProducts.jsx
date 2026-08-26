@@ -44,7 +44,7 @@ function FeaturedProductCard({ product }) {
 
           <div className="mlp-featured-meta">
             <span>{category}</span>
-            <span>{subcategory}</span>
+            {/* <span>{subcategory}</span> */}
           </div>
 
           <h3 className="mlp-featured-name">
@@ -56,9 +56,9 @@ function FeaturedProductCard({ product }) {
         </div>
 
         {/* Description */}
-        <p className="mlp-featured-description">
+        {/* <p className="mlp-featured-description">
           {description}
-        </p>
+        </p> */}
 
         {/* Actions */}
         <div className="mlp-featured-actions">

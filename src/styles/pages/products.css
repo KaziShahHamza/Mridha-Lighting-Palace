@@ -35,7 +35,7 @@
 
   color: var(--color-gold);
 
-  font-size: 0.63rem;
+  font-size: 1rem;
   font-weight: 600;
 
   letter-spacing: 0.19em;
@@ -152,7 +152,7 @@
 
   color: rgba(255, 255, 255, 0.68);
 
-  font-size: 0.9rem;
+  font-size: 1rem;
 
   line-height: 1.8;
 
@@ -174,7 +174,7 @@
 
   color: rgba(255, 255, 255, 0.55);
 
-  font-size: 0.58rem;
+  font-size: 1rem;
   font-weight: 600;
 
   letter-spacing: 0.18em;
@@ -264,7 +264,7 @@
 
   color: var(--color-text-light);
 
-  font-size: 0.85rem;
+  font-size: 1rem;
 
   line-height: 1.85;
 }
@@ -340,7 +340,7 @@
 
   font-family: inherit;
 
-  font-size: 0.75rem;
+  font-size: 1rem;
 
   transition:
     border-color var(--transition-fast),
@@ -388,7 +388,7 @@
 .products-count {
   color: var(--color-text-light);
 
-  font-size: 0.63rem;
+  font-size: 1.25rem;
   font-weight: 600;
 
   letter-spacing: 0.1em;
@@ -443,7 +443,7 @@
 
   font-family: inherit;
 
-  font-size: 0.61rem;
+  font-size: 1rem;
   font-weight: 600;
 
   letter-spacing: 0.08em;
@@ -559,7 +559,7 @@
 
   color: var(--color-white);
 
-  font-size: 0.55rem;
+  font-size: 0.75rem;
   font-weight: 600;
 
   letter-spacing: 0.12em;
@@ -584,7 +584,7 @@
 
   color: var(--color-charcoal);
 
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-weight: 600;
 
   transform:
@@ -655,7 +655,7 @@
 
   color: var(--color-gold);
 
-  font-size: 0.55rem;
+  font-size: 0.80rem;
   font-weight: 600;
 
   letter-spacing: 0.12em;
@@ -667,8 +667,8 @@
 
   color: var(--color-charcoal);
 
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 600;
 
   line-height: 1.35;
 }
@@ -688,7 +688,7 @@
 
   color: var(--color-charcoal);
 
-  font-size: 0.8rem;
+  font-size: 1rem;
 
   transition:
     background var(--transition-fast),
@@ -759,7 +759,7 @@
 
   color: var(--color-text-light);
 
-  font-size: 0.78rem;
+  font-size: 1rem;
 }
 
 .products-empty button {
@@ -778,7 +778,7 @@
 
   font-family: inherit;
 
-  font-size: 0.62rem;
+  font-size: 1rem;
   font-weight: 600;
 
   transition:
@@ -884,7 +884,7 @@
   color:
     rgba(255, 255, 255, 0.68);
 
-  font-size: 0.87rem;
+  font-size: 1rem;
 
   line-height: 1.8;
 }
@@ -904,7 +904,7 @@
 
   color: var(--color-white);
 
-  font-size: 0.64rem;
+  font-size: 1rem;
   font-weight: 600;
 
   transition:
@@ -1058,7 +1058,7 @@
   .products-hero-content p {
     max-width: 400px;
 
-    font-size: 0.82rem;
+    font-size: 1rem;
   }
 
   .products-hero-bottom {
@@ -1085,7 +1085,7 @@
   .products-catalog-description {
     margin: 1.5rem 0 0;
 
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
 
@@ -1215,7 +1215,7 @@
   cursor: pointer;
 
   font-family: inherit;
-  font-size: 0.65rem;
+  font-size: 1rem;
 
   transition:
     background var(--transition-fast),
