@@ -842,9 +842,70 @@
       "bodyColor": "Black / White",
       "application": "Homes, Offices, Shops, Commercial Interiors"
     }
+  },
+  {
+    "id": "hanging-shade-e27",
+    "name": "Hanging Shade E27",
+    "category": "Decorative Lighting",
+    "subcategory": "Hanging LED Lights",
+    "image": "https://nimolightingbd.com/wp-content/uploads/2025/05/Image-02-10-e1748434432867.webp",
+    "gallery": [
+      "https://nimolightingbd.com/wp-content/uploads/2025/06/Screenshot_14-min.webp"
+    ],
+    "description": "Add a modern touch to your interiors with the Hanging Shade E27. Designed for decorative and functional illumination, it offers efficient 5–30W lighting with high brightness, excellent color rendering, and multiple color temperature options. Available in black or white, it is ideal for stylish residential and commercial interiors.",
+    "specifications": {
+      "wattage": "5–30W",
+      "powerFactor": "≥0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "lumens": "100–120 lm/W",
+      "colorTemperature": "3000K, 4000K, 6500K",
+      "bodyColor": "Black / White",
+      "application": "Home, Dining Room, Living Room, Cafe, Commercial Interiors"
+    }
+  },
+  {
+    "id": "solar-street-light",
+    "name": "Solar Street Light",
+    "category": "Outdoor Lighting",
+    "subcategory": "LED Street Lights",
+    "image": "https://nimolightingbd.com/wp-content/uploads/2025/05/Image-01-4-e1748290535829.webp",
+    "gallery": [
+      "https://nimolightingbd.com/wp-content/uploads/2025/06/Screenshot_8-min-e1748849789584-600x376.webp"
+    ],
+    "description": "The Solar Street Light provides efficient and reliable outdoor illumination with integrated solar power capability. Offering 30–200W power, high luminous efficiency, and COB-SMD technology, it delivers bright and uniform lighting for streets, roads, parks, and other outdoor areas.",
+    "specifications": {
+      "wattage": "30–200W",
+      "powerFactor": "0.95–1",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "lumens": "100–130 lm/W",
+      "colorTemperature": "2000K, 3000K, 6500K",
+      "type": "COB-SMD",
+      "application": "Roads, Streets, Parks, Pathways, Outdoor Areas"
+    }
+  },
+  {
+    "id": "m007-gate-light",
+    "name": "M-007 Gate Light",
+    "category": "Outdoor Lighting",
+    "subcategory": "Garden Lights & Wall Washers",
+    "image": "https://nimolightingbd.com/wp-content/uploads/2025/05/Image-04-8-e1748431998372.webp",
+    "gallery": [
+      "https://nimolightingbd.com/wp-content/uploads/2025/06/Screenshot_12-min-600x401.webp"
+    ],
+    "description": "The M-007 Gate Light combines decorative styling with efficient outdoor illumination. With 5–20W power, high color rendering, RGB and single-color options, and IP65 protection, it is designed to enhance gates, walls, gardens, entrances, and landscape environments.",
+    "specifications": {
+      "wattage": "5–20W",
+      "powerFactor": "≤0.65–0.95",
+      "inputVoltage": "AC 85–265V",
+      "cri": "≥80",
+      "lumens": "100–120 lm/W",
+      "colorOptions": "Single & RGB",
+      "ipRating": "IP65",
+      "application": "Gates, Walls, Gardens, Entrances, Landscape Lighting"
+    }
   }
-
-
 
 
   
